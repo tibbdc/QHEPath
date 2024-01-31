@@ -1,0 +1,3 @@
+CY_focytb5_c	1000.0	ficytb5_c <=> focytb5_c	{'charge': -1.0}
+FCYTOB5OXR_c	-500.0	2.0 ficytb5_c + nadh_c <=> 2.0 focytb5_c + h_c + nad_c	{}
+ADD_nadh_c	500.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

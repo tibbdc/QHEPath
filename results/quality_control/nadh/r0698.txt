@@ -1,0 +1,18 @@
+CO2tp	1000.0	co2_c <=> co2_x	{}
+H2Otp	-1000.0	h2o_c <=> h2o_x	{}
+ICDHyp	-1000.0	icit_x + nadp_x <=> akg_x + co2_x + nadph_x	{}
+O2t	500.0	o2_e <=> o2_c	{}
+ARTCOAL2	1000.0	Rtotal2_c + coa_c <=> Rtotal2coa_c	{'charge': 1.0, 'O': -1.0, 'H': -1.0}
+Htx	1000.0	h_c <=> h_x	{}
+O2tp	500.0	o2_c <=> o2_x	{}
+ASNtx	1000.0	asn__L_c + h_c <=> asn__L_x + 2.0 h_x	{'charge': 1.0, 'H': 1.0}
+r1148	1000.0	akg_c + icit_x <=> akg_x + icit_c	{}
+r0698	1000.0	dcholcoa_x + 4.0 h_x + ppcoa_x --> coa_x + dhcholestancoa_x + h2o_x	{'charge': -4.0}
+ASNtg	-1000.0	asn__L_c <=> asn__L_x	{}
+EX_o2_e	-500.0	o2_e <=> 	{'O': -2.0}
+AMACR2p	1000.0	dhcholestancoa_x + 0.5 o2_x --> dhcholoylcoa_x + h2o_x	{}
+ICDHx	1000.0	icit_c + nad_c --> akg_c + co2_c + nadh_c	{}
+ARTCOAL2_cho	1000.0	Rtotal2coa_c + h2o_c --> Rtotal2_c + coa_c + h_c	{}
+HSD17B42x_cho	1000.0	dhcholoylcoa_x + h2o_x + nadp_x --> dhocholoylcoa_x + h_x + nadph_x	{}
+SCP2x_cho	1000.0	coa_x + dhocholoylcoa_x --> dcholcoa_x + ppcoa_x	{}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

@@ -1,0 +1,6 @@
+FADRx2	333.33333	fad_c + h_c + nadph_c --> fadh2_c + nadp_c	{}
+RDXR	500.0	nadh_c + 2.0 rdxo_c <=> h_c + nad_c + 2.0 rdxr_c	{}
+FRNDPR2r	-333.33333	fdxr_42_c + h_c + nadh_c + 2.0 nadp_c <=> fdxo_42_c + nad_c + 2.0 nadph_c	{}
+NADFADOR	333.33333	fadh2_c + fdxr_42_c + 2.0 nad_c <=> fad_c + fdxo_42_c + 2.0 nadh_c	{}
+FDR	-1000.0	nadph_c + rdxo_c <=> h_c + nadp_c + rdxr_c	{'charge': 1.0}
+ADD_nadh_c	500.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

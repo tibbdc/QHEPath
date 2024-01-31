@@ -1,0 +1,60 @@
+2MAHMP	1000.0	2mahmp_c + h2o_c --> 4ampm_c + h_c + pi_c	{}
+ADNK1	1000.0	adn_c + atp_c --> adp_c + amp_c + h_c	{}
+METAT	1000.0	atp_c + h2o_c + met__L_c --> amet_c + pi_c + ppi_c	{}
+MLTP1	66.66667	maltpt_c + pi_c <=> g1p_c + maltttr_c	{}
+RPI	-666.66667	r5p_c <=> ru5p__D_c	{}
+SUCOAS	-36.21368	atp_c + coa_c + succ_c <=> adp_c + pi_c + succoa_c	{}
+TKT2	-333.33333	e4p_c + xu5p__D_c <=> f6p_c + g3p_c	{}
+TPI	-333.33333	dhap_c <=> g3p_c	{}
+BTS4	1000.0	amet_c + dtbt_c + s_c --> btn_c + dad_5_c + h_c + met__L_c	{}
+ACALDCD	29.21901	2.0 acald_c --> actn__R_c	{}
+O2t	643.62073	o2_e <=> o2_c	{}
+OCOAT1	-36.21368	acac_c + succoa_c <=> aacoa_c + succ_c	{}
+FRDO	345.67948	fdxrd_c + nadp_c <=> fdxox_c + h_c + nadph_c	{'charge': 1.0, 'R': 1.0, 'Fe': -8.0, 'S': -8.0, 'X': -1.0}
+ATPS10rpp	476.62479	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+PPA_1pp	1000.0	h2o_c + ppi_c --> h_p + 2.0 pi_c	{}
+SBP	333.33333	h2o_c + s17bp_c --> pi_c + s7p_c	{}
+RE0915C	66.66667	h2o_c + maltttr_c --> fru_c + malttr_c	{}
+AMPMS3	-1000.0	air_c + amet_c <=> 4ampm_c + co_c + dad_5_c + for_c + 2.0 h_c + met__L_c	{}
+CYOOum	172.83974	7.6 h_c + o2_c + 4.0 pcrd_u --> 2.0 h2o_c + 3.6 h_u + 4.0 pcox_u	{'H': 4.440892098500626e-16}
+ATPSum	154.22623	3.0 adp_c + 13.0 h_u + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 10.0 h_c	{}
+SO3R_h	-53.18146	6.0 fdxrd_h + 7.0 h_h + so3_h <=> 6.0 fdxox_h + 3.0 h2o_h + h2s_h	{'Fe': -36.0, 'S': -36.0, 'X': -6.0, 'H': -12.0}
+HMR_8580	66.66667	h2o_c + malttr_c --> fru_c + malt_c	{}
+MAK	33.33333	atp_c + malt_c <=> adp_c + h_c + malt1p_c	{}
+PGI1c	133.33333	g6p_A_c <=> f6p_c	{}
+SFRR	57.61325	h_c + so3_c --> h2o_c + h2s_c	{'charge': 1.0, 'H': 3.0, 'O': -2.0}
+PPS2	1000.0	air_c + amet_c --> 2mahmp_c + co_c + dad_2_c + for_c + met__L_c	{'charge': -3.0, 'H': -2.0, 'O': 3.0, 'P': 1.0}
+EX_acac_e	36.21368	acac_e --> 	{'charge': 1.0, 'C': -4.0, 'H': -5.0, 'O': -3.0}
+EX_o2_e	-643.62073	o2_e <=> 	{'O': -2.0}
+AAMYL	66.66667	14glucan_c --> malthx_c	{'C': 30.0, 'H': 51.0, 'O': 26.0, 'R': -1.0}
+ACACT1r	36.21368	2.0 accoa_c <=> aacoa_c + coa_c	{}
+ACALD	72.42736	acald_c + coa_c + nad_c <=> accoa_c + h_c + nadh_c	{}
+ADK1	1000.0	amp_c + atp_c <=> 2.0 adp_c	{}
+ALDD2x	869.13462	acald_c + h2o_c + nad_c --> ac_c + 2.0 h_c + nadh_c	{}
+CYTBO3_4pp	941.56198	4.0 h_c + 0.5 o2_c + q8h2_c --> h2o_c + 4.0 h_p + q8_c	{}
+DRPA	1000.0	2dr5p_c --> acald_c + g3p_c	{}
+FBA3	-333.33333	s17bp_c <=> dhap_c + e4p_c	{}
+HEX7	200.0	atp_c + fru_c --> adp_c + f6p_c + h_c	{}
+MLTP2	66.66667	malthx_c + pi_c <=> g1p_c + maltpt_c	{}
+PPM	-1000.0	r1p_c <=> r5p_c	{}
+PPM2	1000.0	2dr1p_c <=> 2dr5p_c	{}
+PUNP2	1000.0	dad_2_c + pi_c <=> 2dr1p_c + ade_c	{}
+TKT1	-333.33333	r5p_c + xu5p__D_c <=> g3p_c + s7p_c	{}
+BTSr	-1000.0	dtbt_c + s_c <=> btn_c + 2.0 h_c	{'charge': 2.0}
+NADH6	941.56198	4.5 h_c + nadh_c + q8_c --> 3.5 h_e + nad_c + q8h2_c	{}
+ACACt2	-36.21368	acac_e + h_e <=> acac_c + h_c	{}
+ACTNt2r	-29.21901	actn__R_e + h_e <=> actn__R_c + h_c	{}
+EX_actn__R_e	29.21901	actn__R_e --> 	{'C': -4.0, 'H': -8.0, 'O': -2.0}
+ATPS10_3	336.08996	3.0 adp_c + 10.0 h_e + 3.0 pi_c --> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+PGCM	133.33333	g1p_c <=> g6p_A_c	{}
+CBFC	345.67948	2.0 h_h + 2.0 pcox_u + pqh2_u --> 4.0 h_u + 2.0 pcrd_u + pq_u	{}
+SULR_ferr	53.18146	6.0 fdxrd_h + so3_h --> 6.0 fdxox_h + 3.0 h2o_h + h2s_h + 6.0 h_h	{'charge': 13.0, 'Fe': -36.0, 'S': -36.0, 'X': -6.0, 'H': 1.0}
+DM_ac_c	869.13462	ac_c --> 	{'charge': 1.0, 'C': -2.0, 'H': -3.0, 'O': -2.0}
+RPEc	-333.33333	2.0 ru5p__D_c <=> 2.0 xu5p__D_c	{}
+HMR_8582	33.33333	h2o_c + malt_c --> 2.0 fru_c	{}
+SIRA2	57.61325	6.0 fdxox_c + 3.0 h2o_c + h2s_c <=> 6.0 fdxrd_c + 8.0 h_c + so3_c	{'R': -6.0, 'Fe': 48.0, 'S': 48.0, 'X': 6.0, 'H': 12.0}
+GLGE	33.33333	malt1p_c --> 2.0 14glucan_c + pi_c	{'H': 2.0, 'R': 2.0}
+PUNP1_1	-1000.0	adn_c + h_c + pi_c <=> ade_c + r1p_c	{'charge': -1.0, 'H': -1.0}
+NDH1_1u_1	345.67948	5.0 h_c + nadph_c + pq_u --> 4.0 h_l + nadp_c + pqh2_u	{}
+ATPSu_1	98.76557	3.0 adp_c + 14.0 h_l + 3.0 pi_c --> 3.0 atp_c + 3.0 h2o_c + 11.0 h_c	{}
+ADD_pi_c	1000.0	pi_c --> 	{'charge': 2.0, 'H': -1, 'O': -4, 'P': -1}

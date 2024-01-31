@@ -1,0 +1,61 @@
+EX_co2_e	368.11594	co2_e <=> 	{'C': -1.0, 'O': -2.0}
+F6PA	-202.17391	f6p_c <=> dha_c + g3p_c	{}
+FBA	-337.68116	fdp_c <=> dhap_c + g3p_c	{}
+FBP	337.68116	fdp_c + h2o_c --> f6p_c + pi_c	{}
+GART	79.71014	atp_c + for_c + gar_c --> adp_c + fgam_c + h_c + pi_c	{}
+GLNS	760.86957	atp_c + glu__L_c + nh4_c --> adp_c + gln__L_c + h_c + pi_c	{}
+MLTP1	92.02899	maltpt_c + pi_c <=> g1p_c + maltttr_c	{}
+NDPK2	1000.0	atp_c + udp_c <=> adp_c + utp_c	{}
+PPS	79.71014	atp_c + h2o_c + pyr_c --> amp_c + 2.0 h_c + pep_c + pi_c	{}
+TPI	460.14493	dhap_c <=> g3p_c	{}
+ACGAM6PS	1000.0	accoa_c + gam6p_c --> acgam6p_c + coa_c + h_c	{}
+GLUDxi	-239.13043	glu__L_c + h2o_c + nad_c <=> akg_c + h_c + nadh_c + nh4_c	{}
+O2t	484.78261	o2_e <=> o2_c	{}
+UAG4Ei	1000.0	uacgam_c --> udpacgal_c	{}
+GALAM6PISO	1000.0	galam6p_c + h2o_c --> nh4_c + tag6p__D_c	{'charge': -1.0, 'H': -1.0}
+ATPS10rpp	487.82609	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+PPA_1pp	1000.0	h2o_c + ppi_c --> h_p + 2.0 pi_c	{}
+METR	79.71014	5mthf_c + cfesp_c <=> mecfsp_c + thf_c	{'charge': nan}
+RE0915C	92.02899	h2o_c + maltttr_c --> fru_c + malttr_c	{}
+GLUSfx	-239.13043	akg_c + 2.0 fdxrd_c + gln__L_c + 2.0 h_c <=> 2.0 fdxox_c + 2.0 glu__L_c	{'H': -4.0, 'R': 2.0, 'Fe': -16.0, 'S': -16.0, 'X': -2.0}
+ACGALtr	1000.0	acgal_c <=> acgal_e	{}
+HMR_0805	1000.0	thcrm_hs_c + udpacgal_c --> gbside_hs_c + h_c + udp_c	{}
+HMR_8580	92.02899	h2o_c + malttr_c --> fru_c + malt_c	{}
+MAK	46.01449	atp_c + malt_c <=> adp_c + h_c + malt1p_c	{}
+T6PK	1000.0	atp_c + tag6p__D_c --> adp_c + tagdp__D_c	{'charge': -1.0, 'H': -1.0}
+FGFT	79.71014	fgam_c + 3.0 h_c + thf_c --> gar_c + h2o_c + methf_c	{'charge': -1.0, 'H': -1.0}
+PGI1c	184.05797	g6p_A_c <=> f6p_c	{}
+SULR_syn_1	79.71014	fdxo_2_2_c + h2o_c + h2s_c --> fdxrd_c + h_c + so3_c	{'charge': 1.0, 'Fe': 6.0, 'S': 6.0, 'H': -1.0, 'O': 2.0}
+EX_o2_e	-484.78261	o2_e <=> 	{'O': -2.0}
+AAMYL	92.02899	14glucan_c --> malthx_c	{'C': 30.0, 'H': 51.0, 'O': 26.0, 'R': -1.0}
+ADK1	79.71014	amp_c + atp_c <=> 2.0 adp_c	{}
+CYTBO3_4pp	969.56522	4.0 h_c + 0.5 o2_c + q8h2_c --> h2o_c + 4.0 h_p + q8_c	{}
+ENO	920.28986	2pg_c <=> h2o_c + pep_c	{}
+GAPD	840.57971	g3p_c + nad_c + pi_c <=> 13dpg_c + h_c + nadh_c	{}
+GF6PTA	1000.0	f6p_c + gln__L_c --> gam6p_c + glu__L_c	{}
+MLTP2	92.02899	malthx_c + pi_c <=> g1p_c + maltpt_c	{}
+MTHFD	-79.71014	mlthf_c + nadp_c <=> methf_c + nadph_c	{}
+PDH	368.11594	coa_c + nad_c + pyr_c --> accoa_c + co2_c + nadh_c	{}
+PFL	472.46377	coa_c + pyr_c --> accoa_c + for_c	{}
+PGK	-840.57971	3pg_c + atp_c <=> 13dpg_c + adp_c	{}
+PGM	-920.28986	2pg_c <=> 3pg_c	{}
+TGBPA	1000.0	tagdp__D_c <=> dhap_c + g3p_c	{}
+CO2t	-368.11594	co2_e <=> co2_c	{}
+NADH6	969.56522	4.5 h_c + nadh_c + q8_c --> 3.5 h_e + nad_c + q8h2_c	{}
+ACGAL6PISO	1000.0	acgal6p_c + h2o_c --> galam6p_c + nh4_c	{'charge': 1.0, 'C': -2.0, 'N': 1.0, 'O': -2.0}
+POR	79.71014	coa_c + fdxo_42_c + pyr_c <=> accoa_c + co2_c + fdxr_42_c + h_c	{}
+ATPS10_3	339.34783	3.0 adp_c + 10.0 h_e + 3.0 pi_c --> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+CODH_ACS	79.71014	co2_c + coa_c + fdxr_42_c + h_c + mecfsp_c --> accoa_c + cfesp_c + fdxo_42_c + h2o_c	{'charge': nan}
+PGCM	184.05797	g1p_c <=> g6p_A_c	{}
+SK_for_c	392.75362	for_c --> 	{'charge': 1.0, 'C': -1.0, 'H': -1.0, 'O': -2.0}
+UAGDP_c	1000.0	acgam6p_c + h_c + utp_c --> ppi_c + uacgam_c	{}
+HMR_0807	1000.0	gbside_hs_c + h2o_c --> acgal_c + thcrm_hs_c	{}
+HMR_8582	46.01449	h2o_c + malt_c --> 2.0 fru_c	{}
+SIRA2	-79.71014	6.0 fdxox_c + 3.0 h2o_c + h2s_c <=> 6.0 fdxrd_c + 8.0 h_c + so3_c	{'R': -6.0, 'Fe': 48.0, 'S': 48.0, 'X': 6.0, 'H': 12.0}
+GLGE	46.01449	malt1p_c --> 2.0 14glucan_c + pi_c	{'H': 2.0, 'R': 2.0}
+ALKP_1	202.17391	dhap_c + h2o_c --> dha_c + h_c + pi_c	{'charge': 1.0, 'H': 1.0}
+HEX7_1	276.08696	atp_c + fru_c --> adp_c + f6p_c	{'charge': -1.0, 'H': -1.0}
+GD3P2	79.71014	g3p_c + h2o_c + nadp_c --> 3pg_c + 2.0 h_c + nadph_c	{}
+MRF	79.71014	fdxrd_c + 3.0 h_c + mlthf_c --> 5mthf_c + fdxo_2_2_c	{'charge': -4.0, 'H': -2.0, 'Fe': -6.0, 'S': -6.0}
+ACGALpts_1	1000.0	acgal_e + pep_c --> acgal6p_c + pyr_c	{'charge': 2.0, 'H': 2.0}
+ADD_nh4_c	1000.0	nh4_c --> 	{'charge': -1.0, 'H': -4, 'N': -1}

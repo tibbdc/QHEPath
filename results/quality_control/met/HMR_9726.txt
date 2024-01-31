@@ -1,0 +1,12 @@
+THFAT	1000.0	h2o_c + methf_c --> 5fthf_c + h_c	{}
+H2Ot	1000.0	h2o_e <=> h2o_c	{}
+SULR3	80.0	3.0 fdxr_42_c + 8.0 h_c + so3_c --> 3.0 fdxo_42_c + 3.0 h2o_c + h2s_c	{}
+FTCD	1000.0	5forthf_c + 2.0 h_c --> methf_c + nh4_c	{}
+GluForTx	1000.0	forglu_c + h_c + thf_c --> 5forthf_c + glu__L_c	{}
+HYDFDN2r	240.0	fdxo_42_c + 2.0 h2_c + nadp_c <=> fdxr_42_c + 3.0 h_c + nadph_c	{}
+HYDA	480.0	2.0 fdxrd_c <=> 2.0 fdxox_c + h2_c + 2.0 h_c	{'charge': 4.0, 'R': 2.0, 'Fe': -16.0, 'S': -16.0, 'X': -2.0}
+EX_h2o_e	-1000.0	h2o_e <=> 	{'H': -2.0, 'O': -1.0}
+SULR_1	-80.0	3.0 h2o_c + h2s_c + 3.0 nadp_c <-- 4.0 h_c + 3.0 nadph_c + so3_c	{'charge': -1.0, 'H': -1.0}
+HMR_9726	1000.0	5fthf_c + glu__L_c --> forglu_c + thf_c	{'charge': -1.0, 'N': 1.0, 'O': -1.0}
+SIRA2	160.0	6.0 fdxox_c + 3.0 h2o_c + h2s_c <=> 6.0 fdxrd_c + 8.0 h_c + so3_c	{'R': -6.0, 'Fe': 48.0, 'S': 48.0, 'X': 6.0, 'H': 12.0}
+ADD_nh4_c	1000.0	nh4_c --> 	{'charge': -1.0, 'H': -4, 'N': -1}

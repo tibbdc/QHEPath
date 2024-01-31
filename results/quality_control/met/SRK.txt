@@ -1,0 +1,21 @@
+HPYRRx	1000.0	h_c + hpyr_c + nadh_c --> glyc__R_c + nad_c	{}
+PGCD	1000.0	3pg_c + nad_c --> 3php_c + h_c + nadh_c	{}
+PSP_L	196.07843	h2o_c + pser__L_c --> pi_c + ser__L_c	{}
+O2t	450.98039	o2_e <=> o2_c	{}
+PIt2r	98.03922	h_e + pi_e <=> h_c + pi_c	{}
+ATPS10rpp	360.78431	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+DM_nadh	98.03922	nadh_c --> h_c + nad_c	{'charge': 2.0}
+EX_o2_e	-450.98039	o2_e <=> 	{'O': -2.0}
+EX_pi_e	-98.03922	pi_e <=> 	{'charge': 2.0, 'H': -1.0, 'O': -4.0, 'P': -1.0}
+CYTBO3_4pp	901.96078	4.0 h_c + 0.5 o2_c + q8h2_c --> h2o_c + 4.0 h_p + q8_c	{}
+PGMT	-901.96078	g1p_c <=> g6p_c	{}
+ALAD_L	1000.0	ala__L_c + h2o_c + nad_c --> h_c + nadh_c + nh4_c + pyr_c	{}
+NADH6	901.96078	4.5 h_c + nadh_c + q8_c --> 3.5 h_e + nad_c + q8h2_c	{}
+ATPS10_3	305.88235	3.0 adp_c + 10.0 h_e + 3.0 pi_c --> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+CEPA	-901.96078	cellb_c + pi_c <=> g1p_c + glc__D_c	{}
+SPTc	1000.0	pyr_c + ser__L_c <=> ala__L_c + hpyr_c	{}
+BGLK_1	901.96078	cellb_c + h2o_c --> g6p_c + glc__D_c	{'charge': -2.0, 'H': -1.0, 'O': 3.0, 'P': 1.0}
+GLYCK_1	1000.0	atp_c + glyc__R_c --> 3pg_c + adp_c	{'charge': -1.0, 'H': -1.0}
+PSP_L_1	803.92157	h2o_c + pser__L_c --> h_c + pi_c + ser__L_c	{'charge': 1.0, 'H': 1.0}
+SRK	1000.0	3php_c + atp_c --> adp_c + h_c + pser__L_c	{'charge': 3.0, 'H': 5.0, 'O': -4.0, 'P': -1.0, 'N': 1.0}
+ADD_nh4_c	1000.0	nh4_c --> 	{'charge': -1.0, 'H': -4, 'N': -1}

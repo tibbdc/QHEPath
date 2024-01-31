@@ -1,0 +1,7 @@
+GDR	-500.0	gthox_c + h_c + nadh_c <=> 2.0 gthrd_c + nad_c	{}
+HMR_1325	500.0	nad_c + prostgf2_c --> h_c + nadh_c + prostgh2_c	{}
+TRDR4	500.0	gthox_c + trdrd_c <=> 2.0 gthrd_c + trdox_c	{}
+PGLCNDH	-666.66667	6p2dhglcn_c + nadph_c <=> 6pgc_c + 2.0 h_c + nadp_c	{}
+PTGFS	500.0	prostgh2_c + trdox_c --> prostgf2_c + trdrd_c	{'H': 4.0}
+PGLCNDH_1	666.66667	6p2dhglcn_c + h_c + nadph_c --> 6pgc_c + nadp_c	{'charge': -3.0, 'H': -3.0}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

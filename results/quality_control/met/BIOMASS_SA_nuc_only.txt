@@ -1,0 +1,63 @@
+EX_co2_e	313.17935	co2_e <=> 	{'C': -1.0, 'O': -2.0}
+EX_din_e	7.3596	din_e --> 	{'C': -10.0, 'H': -12.0, 'N': -4.0, 'O': -4.0}
+ALLTAMH	104.39312	alltt_c + 2.0 h2o_c + 2.0 h_c --> co2_c + 2.0 nh4_c + urdglyc_c	{}
+DATPHs	35.66576	datp_c + h2o_c + h_c --> ditp_c + nh4_c	{}
+FUM	-52.19656	fum_c + h2o_c <=> mal__L_c	{}
+GLNS	22.19203	atp_c + glu__L_c + nh4_c --> adp_c + gln__L_c + h_c + pi_c	{}
+GMPR	156.58967	gmp_c + 2.0 h_c + nadph_c --> imp_c + nadp_c + nh4_c	{}
+MALS	52.19656	accoa_c + glx_c + h2o_c --> coa_c + h_c + mal__L_c	{}
+NTD6	7.3596	damp_c + h2o_c --> dad_2_c + pi_c	{}
+NTD8	33.96739	dgmp_c + h2o_c --> dgsn_c + pi_c	{}
+PUNP4	33.96739	dgsn_c + pi_c <=> 2dr1p_c + gua_c	{}
+UGLYCH	104.39312	h2o_c + 2.0 h_c + urdglyc_c --> co2_c + glx_c + 2.0 nh4_c	{}
+AMPDA	176.06431	amp_c + h2o_c + h_c --> imp_c + nh4_c	{}
+EX_glx_e	52.19656	glx_e --> 	{'charge': 1.0, 'C': -2.0, 'H': -1.0, 'O': -3.0}
+BIOMASS_SA_nuc_only	-56.61232	3.11 amp_c + 2.2 cmp_c + 0.76 damp_c + 0.53 dcmp_c + 0.6 dgmp_c + 0.73 dtmp_c + 4.01 gmp_c + 2.39 ump_c <=> h2o_c	{'charge': 28.66, 'C': -138.18, 'H': -168.29999999999998, 'N': -56.83, 'O': -110.27000000000001, 'P': -14.33}
+FORMCOAL	70.42572	atp_c + coa_c + for_c --> amp_c + forcoa_c + ppi_c	{}
+HCITS	88.47876	accoa_c + akg_c + h2o_c --> coa_c + h_c + hcit_c	{}
+DURIt	-11.77536	duri_e <=> duri_c	{}
+NH4t3r	-7.3596	h_e + nh4_c <=> h_c + nh4_e	{}
+GPAR	-70.42572	gua_c + h_c + prpp_c <=> gmp_c + ppi_c	{'charge': -1.0, 'H': -1.0}
+DCMPDA_1	30.00453	dcmp_c + h2o_c --> dump_c + nh3_c	{}
+IMPtr	-332.65399	imp_e <=> imp_c	{}
+DM_psd5p_c	18.22917	psd5p_c --> 	{'charge': 2.0, 'C': -9.0, 'H': -11.0, 'N': -2.0, 'O': -9.0, 'P': -1.0}
+HPOXR	52.19656	2.0 h2o2_c --> 2.0 h2o_c + 2.0 o2_c	{'O': 2.0}
+GLNS_1	30.00453	atp_c + glu__L_c + nh3_c --> adp_c + gln__L_c + pi_c	{}
+EX_dtmp_e	41.32699	dtmp_e --> 	{'charge': 2.0, 'C': -10.0, 'H': -13.0, 'N': -2.0, 'O': -8.0, 'P': -1.0}
+EX_duri_e	11.77536	duri_e --> 	{'C': -9.0, 'H': -12.0, 'N': -2.0, 'O': -5.0}
+EX_h_e	-110.58273	h_e <=> 	{'charge': -1.0, 'H': -1.0}
+EX_h2o_e	-7.3596	h2o_e <=> 	{'H': -2.0, 'O': -1.0}
+EX_imp_e	332.65399	imp_e --> 	{'charge': 2.0, 'C': -10.0, 'H': -11.0, 'N': -4.0, 'O': -8.0, 'P': -1.0}
+EX_ump_e	259.85054	ump_e --> 	{'charge': 2.0, 'C': -9.0, 'H': -11.0, 'N': -2.0, 'O': -9.0, 'P': -1.0}
+ACALD	52.19656	acald_c + coa_c + nad_c <=> accoa_c + h_c + nadh_c	{}
+ALLTN	104.39312	alltn_c + h2o_c --> alltt_c + h_c	{}
+DADK	35.66576	atp_c + damp_c <=> adp_c + dadp_c	{}
+DRPA	52.19656	2dr5p_c --> acald_c + g3p_c	{}
+DURIPP	18.22917	duri_c + pi_c <=> 2dr1p_c + ura_c	{}
+GUAD	104.39312	gua_c + h2o_c + h_c --> nh4_c + xan_c	{}
+NDPK8	35.66576	atp_c + dadp_c <=> adp_c + datp_c	{}
+PPM2	52.19656	2dr1p_c <=> 2dr5p_c	{}
+PRPPS	-70.42572	atp_c + r5p_c <=> amp_c + h_c + prpp_c	{}
+URIC	104.39312	2.0 h2o_c + o2_c + urate_c --> alltn_c + co2_c + h2o2_c	{}
+XAND	104.39312	h2o_c + nad_c + xan_c --> h_c + nadh_c + urate_c	{}
+CO2t	-313.17935	co2_e <=> co2_c	{}
+GLXt	52.19656	glx_c <=> glx_e	{}
+YUMPS	18.22917	r5p_c + ura_c <=> h2o_c + psd5p_c	{}
+DHSKDH	997.05616	3dhsk_c --> 34dhbz_c + h2o_c	{}
+CMPDAi	124.5471	cmp_c + h2o_c + h_c --> nh4_c + ump_c	{}
+DADAe	7.3596	dad_2_e + h2o_e + h_e --> din_e + nh4_e	{}
+DADNt4	-7.3596	dad_2_e <=> dad_2_c	{}
+FCOAH	70.42572	forcoa_c + h2o_c --> coa_c + for_c + 5.0 h_c	{'charge': 4.0, 'H': 4.0}
+DM_pydx5p_c	52.19656	pydx5p_c --> 	{'charge': 2.0, 'C': -8.0, 'H': -8.0, 'N': -1.0, 'O': -6.0, 'P': -1.0}
+ATPS10_3	41.17603	3.0 adp_c + 10.0 h_e + 3.0 pi_c --> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+PLPS	52.19656	g3p_c + gln__L_c + r5p_c --> glu__L_c + 3.0 h2o_c + h_c + pi_c + pydx5p_c	{}
+DTMPt6	-41.32699	dtmp_e + h_e <=> dtmp_c + h_c	{}
+UMPt6	-259.85054	h_e + ump_e <=> h_c + ump_c	{}
+SK_fum_c	52.19656	fum_c --> 	{'charge': 2.0, 'C': -4.0, 'H': -2.0, 'O': -4.0}
+HMR_7900	35.66576	ditp_c <=> ditp_e	{}
+EX_ditp_e	35.66576	ditp_e --> 	{'charge': 4.0, 'C': -10.0, 'H': -11.0, 'N': -4.0, 'O': -13.0, 'P': -3.0}
+NTD1_1	30.00453	dump_c + h2o_c --> duri_c + h_c + pi_c	{'charge': 1.0, 'H': 1.0}
+Q3DHS	-997.05616	3dhsk_c <-- 34dhbz_c	{'H': -2.0, 'O': -1.0}
+NADTRHD2	156.58967	nadh_c + nadp_c <=> h_c + nad_c + nadph_c	{'charge': 1.0, 'H': 1.0}
+AACT	-88.47876	accoa_c + akg_c + h2o_c + 2.0 h_c <=> coa_c + hcit_c	{'charge': -3.0, 'H': -3.0}
+ADD_nh4_c	1000.0	nh4_c --> 	{'charge': -1.0, 'H': -4, 'N': -1}

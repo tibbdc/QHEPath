@@ -1,0 +1,4 @@
+NADTRHD	500.0	nad_c + nadph_c --> nadh_c + nadp_c	{}
+FNOR	-500.0	2.0 fdxrd_c + h_c + nadp_c <=> 2.0 fdxo_2_2_c + nadph_c	{'charge': -6.0, 'Fe': -12.0, 'S': -12.0, 'H': -4.0}
+FNRR2	1000.0	fdxrd_c + h_c + nadp_c <=> fdxo_2_2_c + nadph_c	{'charge': -4.0, 'Fe': -6.0, 'S': -6.0, 'H': -2.0}
+ADD_nadh_c	500.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

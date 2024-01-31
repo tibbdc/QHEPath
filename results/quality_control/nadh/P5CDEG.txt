@@ -1,0 +1,7 @@
+OXPTNDH	-500.0	h2o_c + nad_c + oxptn_c <=> glutar_c + 2.0 h_c + nadh_c	{}
+4HGLSD	500.0	4hglusa_c + h2o_c + nad_c --> e4hglu_c + 2.0 h_c + nadh_c	{}
+OXPTNDH_1	500.0	nad_c + oxptn_c --> glutar_c + nadh_c	{'charge': -2.0, 'O': 1.0}
+PGLCNDH	-333.33333	6p2dhglcn_c + nadph_c <=> 6pgc_c + 2.0 h_c + nadp_c	{}
+PGLCNDH_1	333.33333	6p2dhglcn_c + h_c + nadph_c --> 6pgc_c + nadp_c	{'charge': -3.0, 'H': -3.0}
+P5CDEG	500.0	e4hglu_c + nad_c --> 4hglusa_c + nadh_c	{'H': 2.0, 'O': -1.0}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

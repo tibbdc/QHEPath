@@ -1,0 +1,5 @@
+RE3477C	-1000.0	h2o_r + txa2_r <=> CE1447_c + 2.0 h_c	{'charge': 2.0}
+HMR_1316	-1000.0	HC02180_c <=> HC02180_r	{}
+HMR_1315	1000.0	h2o_r + txa2_r <=> HC02180_r	{}
+HMR_1317	-1000.0	CE1447_c + h_c + nadh_c <=> HC02180_c + nad_c	{}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

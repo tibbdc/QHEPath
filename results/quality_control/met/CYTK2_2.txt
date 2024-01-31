@@ -1,0 +1,4 @@
+CYTK2_2	-1000.0	atp_c + ctp_c + dcmp_c <=> adp_c + cdp_c + dcdp_c	{'charge': 1.0, 'O': -3.0, 'P': -1.0}
+ATPB	1000.0	atp_c --> adp_c + pi_c	{'charge': -1.0, 'H': 1.0, 'O': 1.0}
+CYTK2_1	1000.0	ctp_c + dcmp_c <=> cdp_c + dcdp_c	{}
+ADD_pi_c	1000.0	pi_c --> 	{'charge': 2.0, 'H': -1, 'O': -4, 'P': -1}

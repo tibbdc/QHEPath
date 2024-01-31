@@ -1,0 +1,34 @@
+ADK3	1000.0	amp_c + gtp_c <=> adp_c + gdp_c	{}
+FA161ACPHi	1000.0	h2o_c + hdeACP_c --> ACP_c + h_c + hdcea_c	{}
+FE2tpp	1000.0	fe2_p --> fe2_c	{}
+HACD7	-1000.0	3ohdcoa_c + h_c + nadh_c <=> 3hhdcoa_c + nad_c	{}
+ACACT12	1000.0	3ohdcoa_c + coa_c --> accoa_c + tdcoa_c	{}
+FACOAL161	1000.0	atp_c + coa_c + hdcea_c --> amp_c + hdcoa_c + ppi_c	{}
+ATPS10rpp	333.33333	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+FE2Gabcpp	-1000.0	fe2_p + gtp_c + h2o_c <-- fe2_c + gdp_c + h_c + pi_c	{}
+PPA_1pp	333.33333	h2o_c + ppi_c --> h_p + 2.0 pi_c	{}
+SO4CLtex2	385.18519	cl_c + 2.0 so4_e --> cl_e + 2.0 so4_c	{}
+FASC161ACP	1000.0	2.0 h_c + malACP_c + myrsACP_c + nadph_c --> ACP_c + co2_c + h2o_c + hdeACP_c + nadp_c	{}
+DSMSTOLD	1000.0	ddsmsterol_c + fadh2_c <=> dsmsterol_c + fad_c	{}
+RE2410C	-1000.0	ddsmsterol_c + h_c + nadph_c <=> dsmsterol_c + nadp_c	{}
+CAT21612E_m	1000.0	coa_m + hd2crn_m <=> crn_m + hdd2coa_m	{}
+TDACPT	-1000.0	coa_c + myrsACP_c <=> ACP_c + tdcoa_c	{}
+ACCOAC	1000.0	accoa_c + atp_c + hco3_c --> adp_c + h_c + malcoa_c + pi_c	{}
+ECOAH7	-1000.0	3hhdcoa_c <=> h2o_c + hdd2coa_c	{}
+HCO3E	1000.0	co2_c + h2o_c <=> h_c + hco3_c	{}
+MCOATA	1000.0	ACP_c + malcoa_c <=> coa_c + malACP_c	{}
+MG2t3_2pp	1000.0	2.0 h_c + mg2_p <=> 2.0 h_p + mg2_c	{}
+PGLCNDH	-666.66667	6p2dhglcn_c + nadph_c <=> 6pgc_c + 2.0 h_c + nadp_c	{}
+MGt2pp	-1000.0	h_p + mg2_p <=> h_c + mg2_c	{}
+C161CPT12	-1000.0	crn_c + hdd2coa_c <=> coa_c + hdd2crn_c	{}
+C161CPT22	-1000.0	coa_m + hdd2crn_m <=> crn_m + hdd2coa_m	{}
+PPA_1	666.66667	h2o_c + ppi_c --> h_e + 2.0 pi_c	{}
+CLt3r_2	192.59259	2.0 cl_e + h_c <=> 2.0 cl_c + h_e	{}
+SO4t_e	770.37037	2.0 h_c + so4_c <=> 2.0 h_e + so4_e	{}
+CATC162E_c	1000.0	crn_c + hd2coa_c --> coa_c + hd2crn_c	{}
+CARN1612Et_m	1000.0	crn_m + hd2crn_c --> crn_c + hd2crn_m	{}
+HMR_2634	1000.0	crn_c + hdd2crn_m <=> crn_m + hdd2crn_c	{}
+ATPS4r_1	1000.0	adp_c + 2.4 h_e + pi_c <=> atp_c + h2o_c + 1.4 h_c	{}
+PGLCNDH_1	666.66667	6p2dhglcn_c + h_c + nadph_c --> 6pgc_c + nadp_c	{'charge': -3.0, 'H': -3.0}
+ACOAD23f	1000.0	fad_c + hdcoa_c <=> fadh2_c + hd2coa_c	{'H': 2.0}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

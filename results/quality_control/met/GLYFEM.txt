@@ -1,0 +1,129 @@
+2MAHMP	714.28571	2mahmp_c + h2o_c --> 4ampm_c + h_c + pi_c	{}
+ADK3	619.04762	amp_c + gtp_c <=> adp_c + gdp_c	{}
+ALR4x	47.61905	acetol_c + h_c + nadh_c --> 12ppd__R_c + nad_c	{}
+ASPTA	-333.33333	akg_c + asp__L_c <=> glu__L_c + oaa_c	{}
+CHORM	714.28571	chor_c --> pphn_c	{}
+DHQS	380.95238	2dda7p_c --> 3dhq_c + pi_c	{}
+E4PD	-619.04762	e4p_c + h2o_c + nad_c <=> 4per_c + 2.0 h_c + nadh_c	{}
+FBA	-333.33333	fdp_c <=> dhap_c + g3p_c	{}
+FE2tpp	1000.0	fe2_p --> fe2_c	{}
+FUM	1000.0	fum_c + h2o_c <=> mal__L_c	{}
+GHMT2r	190.47619	ser__L_c + thf_c <=> gly_c + h2o_c + mlthf_c	{}
+METAT	714.28571	atp_c + h2o_c + met__L_c --> amet_c + pi_c + ppi_c	{}
+MOHMT	190.47619	3mob_c + h2o_c + mlthf_c --> 2dhp_c + thf_c	{}
+NADH17pp	1000.0	4.0 h_c + mqn8_c + nadh_c --> 3.0 h_p + mql8_c + nad_c	{}
+POR5	-333.33333	coa_c + 2.0 flxso_c + pyr_c <=> accoa_c + co2_c + 2.0 flxr_c + h_c	{}
+PPCSCT	952.38095	ppcoa_c + succ_c --> ppa_c + succoa_c	{}
+PPS	428.57143	atp_c + h2o_c + pyr_c --> amp_c + 2.0 h_c + pep_c + pi_c	{}
+PSCVT	714.28571	pep_c + skm5p_c <=> 3psme_c + pi_c	{}
+PUNP1	-714.28571	adn_c + pi_c <=> ade_c + r1p_c	{}
+RPI	-333.33333	r5p_c <=> ru5p__D_c	{}
+SERAT	-904.7619	accoa_c + ser__L_c <=> acser_c + coa_c	{}
+SHK3Dr	714.28571	3dhsk_c + h_c + nadph_c <=> nadp_c + skm_c	{}
+TALA	-47.61905	g3p_c + s7p_c <=> e4p_c + f6p_c	{}
+TKT2	-142.85714	e4p_c + xu5p__D_c <=> f6p_c + g3p_c	{}
+TPI	-666.66667	dhap_c <=> g3p_c	{}
+TYRL	714.28571	amet_c + nadph_c + tyr__L_c --> 4crsol_c + dad_5_c + dhgly_c + h_c + met__L_c + nadp_c	{}
+GLUDxi	-333.33333	glu__L_c + h2o_c + nad_c <=> akg_c + h_c + nadh_c + nh4_c	{}
+O2t	47.61905	o2_e <=> o2_c	{}
+PIt2r	-1000.0	h_e + pi_e <=> h_c + pi_c	{}
+4HTHRK	619.04762	4hthr_c + atp_c --> adp_c + h_c + phthr_c	{}
+DKFPS2	333.33333	fdp_c + mthgxl_c --> dkfp_c + g3p_c	{'charge': nan}
+AH6PI	190.47619	ah6p__D_c --> f6p_c	{}
+OCOAT1	-47.61905	acac_c + succoa_c <=> aacoa_c + succ_c	{}
+4HGLSD	1000.0	4hglusa_c + h2o_c + nad_c --> e4hglu_c + 2.0 h_c + nadh_c	{}
+PEPCK_re	666.66667	gtp_c + oaa_c --> co2_c + gdp_c + pep_c	{}
+CYTK2_2	-1000.0	atp_c + ctp_c + dcmp_c <=> adp_c + cdp_c + dcdp_c	{'charge': 1.0, 'O': -3.0, 'P': -1.0}
+RU5PS	190.47619	fald_c + ru5p__D_c --> ah6p__D_c	{}
+ATPS10rpp	405.55556	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+FE2Gabcpp	-1000.0	fe2_p + gtp_c + h2o_c <-- fe2_c + gdp_c + h_c + pi_c	{}
+OOR2r	-1000.0	akg_c + coa_c + fdxo_42_c <=> co2_c + fdxr_42_c + h_c + succoa_c	{}
+PPA_1pp	357.14286	h2o_c + ppi_c --> h_p + 2.0 pi_c	{}
+CYSTA	-904.7619	akg_c + cys__L_c <=> glu__L_c + mercppyr_c	{}
+SBP	333.33333	h2o_c + s17bp_c --> pi_c + s7p_c	{}
+HPYRDC	619.04762	h_c + hpyr_c --> co2_c + gcald_c	{}
+LALDD	47.61905	lald__D_c + nadp_c <=> h_c + mthgxl_c + nadph_c	{}
+DHQS2	333.33333	dohdu_c --> 3dhq_c	{'charge': nan}
+DKFPR	333.33333	dkfp_c + h_c + nadh_c <=> dkmp_c + nad_c	{'charge': nan}
+MDHy	857.14286	mal__L_c + nadp_c <=> h_c + nadph_c + oaa_c	{}
+FE2GTPabc	-1000.0	fe2_e + gtp_c + h2o_c <-- fe2_c + gdp_c + h_c + pi_c	{}
+NH4t_1	-1000.0	h_e + nh4_e <=> h_c + nh4_c	{}
+EX_ppi_e	357.14286	ppi_e --> 	{'charge': 3.0, 'H': -1.0, 'O': -7.0, 'P': -2.0}
+ALCD21_D	47.61905	12ppd__R_c + nad_c --> h_c + lald__D_c + nadh_c	{}
+AMPMS3	-714.28571	air_c + amet_c <=> 4ampm_c + co_c + dad_5_c + for_c + 2.0 h_c + met__L_c	{}
+RE2649C	-952.38095	h2o_c + ppcoa_c <=> coa_c + h_c + ppa_c	{}
+HMR_6515	-904.7619	mercppyr_c + so3_c <=> pyr_c + tsul_c	{}
+GAPDy	95.2381	13dpg_c + nadph_c --> g3p_c + nadp_c + pi_c	{'charge': 1.0, 'H': 1.0}
+PUNP2_1	488.09524	dad_2_c + h_c + pi_c <=> 2dr1p_c + ade_c	{'charge': -1.0, 'H': -1.0}
+SULRSI	1000.0	3.0 h2o_c + 3.0 nadp_c + slnt_c --> 4.0 h_c + 3.0 nadph_c + sel_c	{'charge': 1.0, 'H': 1.0, 'O': -2.0}
+HPOXR	142.85714	2.0 h2o2_c --> 2.0 h2o_c + 2.0 o2_c	{'O': 2.0}
+GLYFEM	1000.0	glyclt_c + h_c --> ac_c + co2_c + h2o_c + succ_c	{'charge': -3.0, 'C': 5.0, 'H': 5.0, 'O': 6.0}
+NAR_syn_2	1000.0	fdxo_2_2_c + h2o_c + no2_c <=> fdxrd_c + 2.0 h_c + no3_c	{'charge': 4.0, 'Fe': 6.0, 'S': 6.0, 'H': 2.0}
+AROAT	714.28571	glu__L_c + h_c + pphn_c <=> Largn_c + akg_c	{'charge': -1.0, 'H': -1.0}
+THIH	904.7619	trdrd_c --> 2.0 h_c + trdox_c	{'charge': 2.0}
+SFRR	154.7619	h_c + so3_c --> h2o_c + h2s_c	{'charge': 1.0, 'H': 3.0, 'O': -2.0}
+PPS2	714.28571	air_c + amet_c --> 2mahmp_c + co_c + dad_2_c + for_c + met__L_c	{'charge': -3.0, 'H': -2.0, 'O': 3.0, 'P': 1.0}
+FRDO6r	-1000.0	fdxr_42_c + h_c + nad_c <=> fdxo_42_c + nadh_c	{}
+EX_nh4_e	1000.0	nh4_e <=> 	{'charge': -1.0, 'H': -4.0, 'N': -1.0}
+EX_o2_e	-47.61905	o2_e <=> 	{'O': -2.0}
+EX_pi_e	1000.0	pi_e <=> 	{'charge': 2.0, 'H': -1.0, 'O': -4.0, 'P': -1.0}
+AACTOOR	285.71429	aact_c + h2o_c + o2_c --> h2o2_c + mthgxl_c + nh4_c	{}
+ACACT1r	47.61905	2.0 accoa_c <=> aacoa_c + coa_c	{}
+ACALD	714.28571	acald_c + coa_c + nad_c <=> accoa_c + h_c + nadh_c	{}
+ADK1	523.80952	amp_c + atp_c <=> 2.0 adp_c	{}
+AOBUTDs	285.71429	2aobut_c + h_c --> aact_c + co2_c	{}
+ASPK	333.33333	asp__L_c + atp_c <=> 4pasp_c + adp_c	{}
+CHORS	714.28571	3psme_c --> chor_c + pi_c	{}
+DDPA	380.95238	e4p_c + h2o_c + pep_c --> 2dda7p_c + pi_c	{}
+DHQTi	714.28571	3dhq_c --> 3dhsk_c + h2o_c	{}
+DRPA	714.28571	2dr5p_c --> acald_c + g3p_c	{}
+FBA3	-333.33333	s17bp_c <=> dhap_c + e4p_c	{}
+FLDR2	333.33333	2.0 flxso_c + nadph_c --> 2.0 flxr_c + h_c + nadp_c	{}
+GLYAT	285.71429	accoa_c + gly_c <=> 2aobut_c + coa_c	{}
+GLYCLTDy	1000.0	glx_c + h_c + nadph_c --> glyclt_c + nadp_c	{}
+HPYRRy	95.2381	h_c + hpyr_c + nadph_c --> glyc__R_c + nadp_c	{}
+ICDHyr	-1000.0	icit_c + nadp_c <=> akg_c + co2_c + nadph_c	{}
+ICL	1000.0	icit_c --> glx_c + succ_c	{}
+MDH	142.85714	mal__L_c + nad_c <=> h_c + nadh_c + oaa_c	{}
+MG2t3_2pp	232.80423	2.0 h_c + mg2_p <=> 2.0 h_p + mg2_c	{}
+OHPBAT	-619.04762	glu__L_c + ohpb_c <=> akg_c + phthr_c	{}
+PERD	-619.04762	4per_c + nad_c <=> h_c + nadh_c + ohpb_c	{}
+PGK	95.2381	3pg_c + atp_c <=> 13dpg_c + adp_c	{}
+PPM	-714.28571	r1p_c <=> r5p_c	{}
+PPM2	714.28571	2dr1p_c <=> 2dr5p_c	{}
+PUNP2	226.19048	dad_2_c + pi_c <=> 2dr1p_c + ade_c	{}
+SELR	1000.0	mql8_c + sel_c --> h2o_c + mqn8_c + slnt_c	{}
+SUCDi	1000.0	q8_c + succ_c --> fum_c + q8h2_c	{}
+TKT1	-380.95238	r5p_c + xu5p__D_c <=> g3p_c + s7p_c	{}
+FE2t	1000.0	fe2_e --> fe2_c	{}
+NO3R1	1000.0	2.0 h_c + no3_c + q8h2_c --> h2o_c + 2.0 h_e + no2_c + q8_c	{}
+CYTK2_1	1000.0	ctp_c + dcmp_c <=> cdp_c + dcdp_c	{}
+ADNK3	714.28571	adn_c + gtp_c --> amp_c + gdp_c + h_c	{}
+MGt2pp	-232.80423	h_p + mg2_p <=> h_c + mg2_c	{}
+POR	-1000.0	coa_c + fdxo_42_c + pyr_c <=> accoa_c + co2_c + fdxr_42_c + h_c	{}
+FNOR	500.0	2.0 fdxrd_c + h_c + nadp_c <=> 2.0 fdxo_2_2_c + nadph_c	{'charge': -6.0, 'Fe': -12.0, 'S': -12.0, 'H': -4.0}
+SPT_syn	714.28571	glx_c + ser__L_c <=> gly_c + hpyr_c	{}
+ACTNMO	47.61905	acetone_c + h_c + nadph_c + o2_c --> acetol_c + h2o_c + nadp_c	{}
+DKMPASPL	333.33333	aspsa_c + dkmp_c --> dohau_c + g3p_c	{'charge': nan}
+DOHDUS	333.33333	dohau_c + h2o_c + nad_c --> dohdu_c + h_c + nadh_c + nh4_c	{'charge': nan}
+ADAPAT	-500.0	glu__L_c + nal2a6o_c <=> akg_c + n6all26d_c	{}
+ATPS10_3	435.71429	3.0 adp_c + 10.0 h_e + 3.0 pi_c --> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+2DHPFALDL	190.47619	2dhp_c <=> 3mob_c + fald_c	{}
+RE3629C	-95.2381	CE2089_c + accoa_c <=> CE2088_c + coa_c + h_c	{}
+DHGLYH	714.28571	dhgly_c + h2o_c + h_c --> glx_c + nh4_c	{}
+4HTHRA	-619.04762	4hthr_c <=> gcald_c + gly_c	{}
+RE3630C	-95.2381	CE2088_c + h2o_c <=> CE2089_c + ac_c	{}
+RPEc	-261.90476	2.0 ru5p__D_c <=> 2.0 xu5p__D_c	{}
+FPRA	928.57143	fdxrd_c + h_c + nadp_c --> fdxox_c + nadph_c	{'charge': -1.0, 'R': 1.0, 'Fe': -8.0, 'S': -8.0, 'X': -1.0, 'H': -2.0}
+SIRA2	154.7619	6.0 fdxox_c + 3.0 h2o_c + h2s_c <=> 6.0 fdxrd_c + 8.0 h_c + so3_c	{'R': -6.0, 'Fe': 48.0, 'S': 48.0, 'X': 6.0, 'H': 12.0}
+ACSERHS	-904.7619	acser_c + trdrd_c + tsul_c <=> ac_c + cys__L_c + so3_c + trdox_c	{'charge': -1.0, 'H': -1.0}
+ASAD_1	333.33333	4pasp_c + nadph_c <=> aspsa_c + nadp_c + pi_c	{'charge': 1.0, 'H': 1.0}
+GLYCK_1	95.2381	atp_c + glyc__R_c --> 3pg_c + adp_c	{'charge': -1.0, 'H': -1.0}
+NALN6_1	500.0	akg_c + nal2a6o_c --> glu__L_c + n6all26d_c	{'charge': 2.0, 'H': 8.0, 'O': -2.0, 'N': 2.0}
+PPItex	357.14286	h_c + ppi_c --> h_e + ppi_e	{}
+SHKK_1	714.28571	atp_c + skm_c --> adp_c + skm5p_c	{'charge': -1.0, 'H': -1.0}
+P5CDEG	1000.0	e4hglu_c + nad_c --> 4hglusa_c + nadh_c	{'H': 2.0, 'O': -1.0}
+ARNO	714.28571	Largn_c + nad_c --> co2_c + h_c + nadh_c + tyr__L_c	{'charge': 1.0, 'H': 1.0}
+ADCi	47.61905	acac_c + h_c --> acetone_c + co2_c	{}
+FRDO5r	-1000.0	fdxr_42_c + h_c + nadp_c <=> fdxo_42_c + nadph_c	{}
+ADD_4crsol_c	714.28571	4crsol_c --> 	{'C': -7, 'H': -8, 'O': -1}

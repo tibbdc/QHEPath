@@ -1,0 +1,8 @@
+ATPM	1000.0	atp_c + h2o_c --> adp_c + h_c + pi_c	{}
+ATPtm	1000.0	adp_c + atp_m --> adp_m + atp_c	{}
+PIt2m_2	500.0	2.0 h_c + pi_c <=> 2.0 h_m + pi_m	{}
+PIcm	500.0	pi_c <=> pi_m	{}
+APPTm	-1000.0	atp_m + ppa_m <=> adp_m + ppap_m	{}
+PCPPTm	-1000.0	coa_m + ppap_m <-- pi_m + ppcoa_m	{}
+RE2649M	-1000.0	h2o_m + ppcoa_m <=> coa_m + h_m + ppa_m	{}
+H2Otm	-1000.0	h2o_c <=> h2o_m	{}

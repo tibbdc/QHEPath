@@ -1,0 +1,44 @@
+ADK3	1000.0	amp_c + gtp_c <=> adp_c + gdp_c	{}
+FE2tpp	1000.0	fe2_p --> fe2_c	{}
+GLYK	1000.0	atp_c + glyc_c --> adp_c + glyc3p_c + h_c	{}
+NADH17pp	94.44444	4.0 h_c + mqn8_c + nadh_c --> 3.0 h_p + mql8_c + nad_c	{}
+NDPK1	-1000.0	atp_c + gdp_c <=> adp_c + gtp_c	{}
+PTA2	1000.0	pi_c + ppcoa_c --> coa_c + ppap_c	{}
+DHORD3	-94.44444	dhor__S_c + mqn6_c <=> mql6_c + orot_c	{'charge': nan}
+ATPS10rpp	547.22222	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+FE2Gabcpp	-1000.0	fe2_p + gtp_c + h2o_c <-- fe2_c + gdp_c + h_c + pi_c	{}
+PPA_1pp	1000.0	h2o_c + ppi_c --> h_p + 2.0 pi_c	{}
+SO4CLtex2	500.0	cl_c + 2.0 so4_e --> cl_e + 2.0 so4_c	{}
+FE2GTPabc	-1000.0	fe2_e + gtp_c + h2o_c <-- fe2_c + gdp_c + h_c + pi_c	{}
+DSMSTOLD	1000.0	ddsmsterol_c + fadh2_c <=> dsmsterol_c + fad_c	{}
+MAGAH160	1000.0	h2o_c + mag160_c --> glyc_c + h_c + hdca_c	{}
+RE2410C	-1000.0	ddsmsterol_c + h_c + nadph_c <=> dsmsterol_c + nadp_c	{}
+DAGAH_PALM_HDE_c	1000.0	12dgr1601619Z_c + h2o_c --> h_c + hdcea_c + mag160_c	{}
+CLt_e	500.0	cl_e + h_c <=> cl_c + h_e	{}
+RE2649C	-1000.0	h2o_c + ppcoa_c <=> coa_c + h_c + ppa_c	{}
+FAD_14	1000.0	coa_c + fad_c + h2o_c + nad_c + odecoa_c --> accoa_c + fadh2_c + h_c + hdcoa_c + nadh_c	{}
+EX_h_e	-94.44444	h_e <=> 	{'charge': -1.0, 'H': -1.0}
+AACPS3	1000.0	ACP_c + atp_c + hdca_c --> amp_c + palmACP_c + ppi_c	{}
+ACCOAC	1000.0	accoa_c + atp_c + hco3_c --> adp_c + h_c + malcoa_c + pi_c	{}
+ADK1	1000.0	amp_c + atp_c <=> 2.0 adp_c	{}
+HCO3E	1000.0	co2_c + h2o_c <=> h_c + hco3_c	{}
+MCOATA	1000.0	ACP_c + malcoa_c <=> coa_c + malACP_c	{}
+MG2t3_2pp	1000.0	2.0 h_c + mg2_p <=> 2.0 h_p + mg2_c	{}
+PPAKr	1000.0	adp_c + ppap_c <=> atp_c + ppa_c	{}
+FA181ACPH	1000.0	h2o_c + octeACP_c <=> ACP_c + h_c + ocdcea_c	{}
+FACOAL181	1000.0	atp_c + coa_c + ocdcea_c --> amp_c + odecoa_c + ppi_c	{}
+FE2t	1000.0	fe2_e --> fe2_c	{}
+FRD5	-94.44444	fum_c + mql6_c <=> mqn6_c + succ_c	{'charge': nan}
+FRD2rpp	-94.44444	2.0 h_p + mqn8_c + succ_c <=> fum_c + 2.0 h_c + mql8_c	{}
+MGt2pp	-1000.0	h_p + mg2_p <=> h_c + mg2_c	{}
+PPA_1	1000.0	h2o_c + ppi_c --> h_e + 2.0 pi_c	{}
+ATPS10_3	119.44444	3.0 adp_c + 10.0 h_e + 3.0 pi_c --> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+DHORD_NAD	94.44444	dhor__S_c + nad_c <=> nadh_c + orot_c	{'charge': -1.0, 'H': -1.0}
+FASC181ACP	1000.0	2.0 h_c + malACP_c + nadph_c + palmACP_c --> ACP_c + co2_c + h2o_c + nadp_c + octeACP_c	{}
+PCXHtpp	1000.0	h_c --> h_p	{}
+AGPATCOA_PALM_HDE_c	1000.0	1hdecg3p_c + hdcoa_c --> coa_c + pa1601619Z_c	{}
+PAPA_PALM_HDE_c	1000.0	h2o_c + pa1601619Z_c --> 12dgr1601619Z_c + pi_c	{}
+SO4t_e	1000.0	2.0 h_c + so4_c <=> 2.0 h_e + so4_e	{}
+HDECH	-1000.0	1hdecg3p_c + h2o_c <=> glyc3p_c + 3.0 h_c + hdcea_c	{'charge': 2.0}
+ATPS4r_1	1000.0	adp_c + 2.4 h_e + pi_c <=> atp_c + h2o_c + 1.4 h_c	{}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

@@ -1,0 +1,13 @@
+O2t	1000.0	o2_e <=> o2_c	{}
+CYSTA	-1000.0	akg_c + cys__L_c <=> glu__L_c + mercppyr_c	{}
+CYSO	1000.0	cys__L_c + o2_c --> 3sala_c + 2.0 h_c	{}
+GDR	-1000.0	gthox_c + h_c + nadh_c <=> 2.0 gthrd_c + nad_c	{}
+HMR_6515	-1000.0	mercppyr_c + so3_c <=> pyr_c + tsul_c	{}
+SFRR	1000.0	h_c + so3_c --> h2o_c + h2s_c	{'charge': 1.0, 'H': 3.0, 'O': -2.0}
+EX_o2_e	-1000.0	o2_e <=> 	{'O': -2.0}
+TSULR3e	-1000.0	2.0 gthrd_c + tsul_c <=> gthox_c + h2s_c + so3_c	{}
+PGLCNDH	-1000.0	6p2dhglcn_c + nadph_c <=> 6pgc_c + 2.0 h_c + nadp_c	{}
+3SALATAi	1000.0	3sala_c + akg_c + h_c --> 3snpyr_c + glu__L_c	{}
+3SPYRSP	1000.0	3snpyr_c + h2o_c --> h_c + pyr_c + so3_c	{}
+PGLCNDH_1	1000.0	6p2dhglcn_c + h_c + nadph_c --> 6pgc_c + nadp_c	{'charge': -3.0, 'H': -3.0}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

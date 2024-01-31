@@ -1,0 +1,40 @@
+ASAD	-1000.0	aspsa_c + nadp_c + pi_c <=> 4pasp_c + h_c + nadph_c	{}
+ASPTA	-1000.0	akg_c + asp__L_c <=> glu__L_c + oaa_c	{}
+DAPDC	1000.0	26dap__M_c + h_c --> co2_c + lys__L_c	{}
+ECOAH1	-1000.0	3hbcoa_c <=> b2coa_c + h2o_c	{}
+FE2tpp	162.5	fe2_p --> fe2_c	{}
+NDPK1	-162.5	atp_c + gdp_c <=> adp_c + gtp_c	{}
+POR5	-1000.0	coa_c + 2.0 flxso_c + pyr_c <=> accoa_c + co2_c + 2.0 flxr_c + h_c	{}
+PPCSCT	1000.0	ppcoa_c + succ_c --> ppa_c + succoa_c	{}
+SDPTA	-1000.0	akg_c + sl26da_c <=> glu__L_c + sl2a6o_c	{}
+AATA	-1000.0	2oxoadp_c + glu__L_c <=> L2aadp_c + akg_c	{}
+PC	1000.0	atp_c + hco3_c + pyr_c --> adp_c + h_c + oaa_c + pi_c	{}
+OXPTNDH	-1000.0	h2o_c + nad_c + oxptn_c <=> glutar_c + 2.0 h_c + nadh_c	{}
+ATPS10rpp	300.0	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+FE2Gabcpp	-162.5	fe2_p + gtp_c + h2o_c <-- fe2_c + gdp_c + h_c + pi_c	{}
+SO4CLtex2	500.0	cl_c + 2.0 so4_e --> cl_e + 2.0 so4_c	{}
+DSMSTOLD	1000.0	ddsmsterol_c + fadh2_c <=> dsmsterol_c + fad_c	{}
+HBCO_nadp	-1000.0	aacoa_c + h_c + nadph_c <=> 3hbcoa_c + nadp_c	{}
+RE2410C	-1000.0	ddsmsterol_c + h_c + nadph_c <=> dsmsterol_c + nadp_c	{}
+RE2649C	-1000.0	h2o_c + ppcoa_c <=> coa_c + h_c + ppa_c	{}
+PYAS	1000.0	aspsa_c + pyr_c --> h2o_c + h_c + thdp_c	{'O': -1.0}
+THDPS_2	1000.0	h2o_c + succoa_c + thdp_c --> coa_c + sl2a6o_c	{}
+OXPTNDH_1	1000.0	nad_c + oxptn_c --> glutar_c + nadh_c	{'charge': -2.0, 'O': 1.0}
+ASPK	1000.0	asp__L_c + atp_c <=> 4pasp_c + adp_c	{}
+DAPE	1000.0	26dap_LL_c <=> 26dap__M_c	{}
+FLDR2	1000.0	2.0 flxso_c + nadph_c --> 2.0 flxr_c + h_c + nadp_c	{}
+HCO3E	1000.0	co2_c + h2o_c <=> h_c + hco3_c	{}
+MG2t3_2pp	1000.0	2.0 h_c + mg2_p <=> 2.0 h_p + mg2_c	{}
+SDPDS	1000.0	h2o_c + sl26da_c --> 26dap_LL_c + succ_c	{}
+GLUTCOADHc	1000.0	fad_c + glutcoa_c + h_c --> b2coa_c + co2_c + fadh2_c	{}
+MGt2pp	-1000.0	h_p + mg2_p <=> h_c + mg2_c	{}
+POR	-1000.0	coa_c + fdxo_42_c + pyr_c <=> accoa_c + co2_c + fdxr_42_c + h_c	{}
+CLt3r_2	250.0	2.0 cl_e + h_c <=> 2.0 cl_c + h_e	{}
+AASDH1_c	1000.0	L2aadp6sa_c + h2o_c + nadp_c --> L2aadp_c + 2.0 h_c + nadph_c	{}
+SO4t_e	1000.0	2.0 h_c + so4_c <=> 2.0 h_e + so4_e	{}
+LAT	1000.0	akg_c + lys__L_c <=> L2aadp6sa_c + glu__L_c	{}
+ATPS4r_1	937.5	adp_c + 2.4 h_e + pi_c <=> atp_c + h2o_c + 1.4 h_c	{}
+ODH2E	1000.0	2oxoadp_c + coa_c + nad_c --> co2_c + glutcoa_c + nadh_c	{}
+ACCOAS	-1000.0	2.0 accoa_c <=> aacoa_c + coa_c	{}
+FRDO5r	-1000.0	fdxr_42_c + h_c + nadp_c <=> fdxo_42_c + nadph_c	{}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

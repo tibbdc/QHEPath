@@ -1,0 +1,17 @@
+NNAM	1000.0	h2o_c + ncam_c --> nac_c + nh4_c	{}
+H2Ot	629.62963	h2o_e <=> h2o_c	{}
+O2t	277.77778	o2_e <=> o2_c	{}
+FRDO	231.48148	fdxrd_c + nadp_c <=> fdxox_c + h_c + nadph_c	{'charge': 1.0, 'R': 1.0, 'Fe': -8.0, 'S': -8.0, 'X': -1.0}
+ATPS10rpp	333.33333	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+NP1_1	-1000.0	nicrns_c + pi_c <=> nac_c + r1p_c	{'charge': -1.0, 'H': -1.0}
+RBK2	1000.0	atp_c + rib__D_c --> adp_c + r5p_c	{'charge': -1.0, 'H': -1.0}
+SFRR	92.59259	h_c + so3_c --> h2o_c + h2s_c	{'charge': 1.0, 'H': 3.0, 'O': -2.0}
+EX_h2o_e	-629.62963	h2o_e <=> 	{'H': -2.0, 'O': -1.0}
+EX_o2_e	-277.77778	o2_e <=> 	{'O': -2.0}
+PPM	-1000.0	r1p_c <=> r5p_c	{}
+FPRA	324.07407	fdxrd_c + h_c + nadp_c --> fdxox_c + nadph_c	{'charge': -1.0, 'R': 1.0, 'Fe': -8.0, 'S': -8.0, 'X': -1.0, 'H': -2.0}
+SIRA2	92.59259	6.0 fdxox_c + 3.0 h2o_c + h2s_c <=> 6.0 fdxrd_c + 8.0 h_c + so3_c	{'R': -6.0, 'Fe': 48.0, 'S': 48.0, 'X': 6.0, 'H': 12.0}
+NDH1_1p_1	555.55556	5.0 h_c + nadph_c + pq_y --> 4.0 h_p + nadp_c + pqh2_y	{}
+CYTBDpp_2	277.77778	4.0 h_c + o2_c + 2.0 pqh2_y --> 2.0 h2o_c + 4.0 h_p + 2.0 pq_y	{}
+NRRH	1000.0	h2o_c + nicrns_c --> h_c + ncam_c + rib__D_c	{'charge': 1.0, 'H': 2.0, 'O': -1.0, 'N': 1.0}
+ADD_nh4_c	1000.0	nh4_c --> 	{'charge': -1.0, 'H': -4, 'N': -1}

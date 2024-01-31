@@ -1,0 +1,5 @@
+UGE	1000.0	udpglcur_c <=> udpgalur_c	{'charge': 3.0, 'H': 3.0}
+PGLCNDH	-1000.0	6p2dhglcn_c + nadph_c <=> 6pgc_c + 2.0 h_c + nadp_c	{}
+GLA	1000.0	nad_c + udpgalur_c <=> 2.0 h_c + nadh_c + udpglcur_c	{'charge': -2.0}
+PGLCNDH_1	1000.0	6p2dhglcn_c + h_c + nadph_c --> 6pgc_c + nadp_c	{'charge': -3.0, 'H': -3.0}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

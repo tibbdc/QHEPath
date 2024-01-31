@@ -1,0 +1,13 @@
+ATPM	1000.0	atp_c + h2o_c --> adp_c + h_c + pi_c	{}
+PTAr	333.33333	accoa_c + pi_c <=> actp_c + coa_c	{}
+ACtm	-666.66667	ac_c <=> ac_m	{}
+ATPtm_H	666.66667	adp_c + atp_m + h_c --> adp_m + atp_c + h_m	{}
+METt2m	1000.0	h_m + met__L_m <=> h_c + met__L_c	{}
+PIt2m_2	666.66667	2.0 h_c + pi_c <=> 2.0 h_m + pi_m	{}
+ACKrm	-666.66667	ac_m + atp_m <=> actp_m + adp_m	{}
+RE2030M	-1000.0	accoa_m + met__L_m <=> C02712_m + coa_m + h_m	{}
+C02712tm	1000.0	C02712_c <=> C02712_m	{}
+ACKr	-333.33333	ac_c + atp_c <=> actp_c + adp_c	{}
+ACCOAtm	-333.33333	accoa_c + coa_m <=> accoa_m + coa_c	{}
+PTArm	666.66667	accoa_m + pi_m <=> actp_m + coa_m	{}
+RE2640C	-1000.0	C02712_c + h2o_c <=> ac_c + met__L_c	{}

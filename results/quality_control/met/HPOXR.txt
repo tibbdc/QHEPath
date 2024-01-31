@@ -1,0 +1,94 @@
+EX_so3_e	5.3213	so3_e --> 	{'charge': 2.0, 'O': -3.0, 'S': -1.0}
+ALATRS	3.8742	ala__L_c + atp_c + trnaala_c --> alatrna_c + amp_c + ppi_c	{}
+ARGTRS	0.67713	arg__L_c + atp_c + trnaarg_c --> amp_c + argtrna_c + ppi_c	{}
+ASAD	-1.05966	aspsa_c + nadp_c + pi_c <=> 4pasp_c + h_c + nadph_c	{}
+ASPTRS	1.93615	asp__L_c + atp_c + trnaasp_c --> amp_c + asptrna_c + ppi_c	{}
+CYSTRS	0.08902	atp_c + cys__L_c + trnacys_c --> amp_c + cystrna_c + ppi_c	{'H': -1.0}
+FUM	26.51511	fum_c + h2o_c <=> mal__L_c	{}
+LEUTRS	1.06893	atp_c + leu__L_c + trnaleu_c --> amp_c + leutrna_c + ppi_c	{}
+LYSTRS	1.61203	atp_c + lys__L_c + trnalys_c --> amp_c + lystrna_c + ppi_c	{}
+MDH3	1.75718	mal__L_c + mqn8_c --> mql8_c + oaa_c	{}
+ME1	24.75793	mal__L_c + nad_c --> co2_c + nadh_c + pyr_c	{}
+METTRS	0.54213	atp_c + met__L_c + trnamet_c --> amp_c + mettrna_c + ppi_c	{}
+NADH17pp	17.67674	4.0 h_c + mqn8_c + nadh_c --> 3.0 h_p + mql8_c + nad_c	{}
+P5CD	14.82677	1pyr5c_c + 2.0 h2o_c + nad_c --> glu__L_c + h_c + nadh_c	{}
+PTAr	-596.5437	accoa_c + pi_c <=> actp_c + coa_c	{}
+SDPTA	-10.62857	akg_c + sl26da_c <=> glu__L_c + sl2a6o_c	{}
+THRTRS	1.81095	atp_c + thr__L_c + trnathr_c --> amp_c + ppi_c + thrtrna_c	{'H': -1.0}
+TRPTRS	0.45496	atp_c + trnatrp_c + trp__L_c --> amp_c + ppi_c + trptrna_c	{}
+VALTRS	1.47316	atp_c + trnaval_c + val__L_c --> amp_c + ppi_c + valtrna_c	{}
+CO2tp	1.79845	co2_c <=> co2_x	{}
+H2Otp	1.79845	h2o_c <=> h2o_x	{}
+SO3ti	5.3213	so3_c --> so3_e	{}
+ACYP_2	8.37578	actp_c + h2o_c --> ac_c + h_c + pi_c	{}
+HISDr	5.25796	his__L_c --> nh4_c + urcan_c	{}
+URCN	5.25796	h2o_c + urcan_c --> 4izp_c	{}
+4HGLSD	185.01977	4hglusa_c + h2o_c + nad_c --> e4hglu_c + 2.0 h_c + nadh_c	{}
+OOR2r	26.51511	akg_c + coa_c + fdxo_42_c <=> co2_c + fdxr_42_c + h_c + succoa_c	{}
+SUCOAACTr	26.51511	ac_c + succoa_c <=> accoa_c + succ_c	{}
+3HCO3_NAt	-32.78014	3.0 hco3_e + na1_e <=> 3.0 hco3_c + na1_c	{}
+NAt5	-32.78014	na1_c + nh4_e <=> na1_e + nh4_c	{}
+ASPTA6	1.75718	ala__L_c + oaa_c <=> asp__L_c + pyr_c	{}
+HYDA	-4.8425	2.0 fdxrd_c <=> 2.0 fdxox_c + h2_c + 2.0 h_c	{'charge': 4.0, 'R': 2.0, 'Fe': -16.0, 'S': -16.0, 'X': -2.0}
+epo_degradation	5.17665	26.0 h2o_c + peptide_c --> ala__L_c + cys__L_c + glu__L_c + 3.0 gly_c + his__L_c + 10.0 leu__L_c + met__L_c + 3.0 pro__L_c + 2.0 ser__L_c + 2.0 trp__L_c + 2.0 val__L_c	{'charge': -1.0, 'C': 101.0, 'H': 160.0, 'N': 23.0, 'O': 11.0, 'S': 2.0}
+DM_indole_c	10.27399	indole_c --> 	{'C': -8.0, 'H': -7.0, 'N': -1.0}
+SK_leu__L_c	52.23863	leu__L_c --> 	{'C': -6.0, 'H': -13.0, 'N': -1.0, 'O': -2.0}
+SK_met__L_c	5.20835	met__L_c --> 	{'C': -5.0, 'H': -11.0, 'N': -1.0, 'O': -2.0, 'S': -1.0}
+SK_phe__L_c	0.26676	phe__L_c --> 	{'C': -9.0, 'H': -11.0, 'N': -1.0, 'O': -2.0}
+SK_val__L_c	10.09878	val__L_c --> 	{'C': -5.0, 'H': -11.0, 'N': -1.0, 'O': -2.0}
+SK_gln__L_c	1.54274	gln__L_c --> 	{'C': -5.0, 'H': -10.0, 'N': -2.0, 'O': -3.0}
+SK_tyr__L_c	0.47197	tyr__L_c --> 	{'C': -9.0, 'H': -11.0, 'N': -1.0, 'O': -3.0}
+GLUTRS_3	1.32552	atp_c + glu__L_c + h_c + trnaglu_c --> amp_c + glutrna_c + ppi_c	{'charge': -1.0, 'H': -1.0}
+SULRSI	45.94904	3.0 h2o_c + 3.0 nadp_c + slnt_c --> 4.0 h_c + 3.0 nadph_c + sel_c	{'charge': 1.0, 'H': 1.0, 'O': -2.0}
+HPOXR	1000.0	2.0 h2o2_c --> 2.0 h2o_c + 2.0 o2_c	{'O': 2.0}
+HCO3E1	1.79845	co2_x + h2o_x --> 	{'C': -1.0, 'O': -3.0, 'H': -2.0}
+ASNS3	0.0865	asp__L_c + atp_c + nh3_c --> adp_c + asn__L_c + pi_c	{}
+SDPTA_2	10.62857	glu__L_c + sl26da_c --> akg_c + sl2a6o_c	{'charge': -2.0, 'H': -8.0, 'O': 2.0, 'N': -2.0}
+FRDO6r	-500.04456	fdxr_42_c + h_c + nad_c <=> fdxo_42_c + nadh_c	{}
+IDPh_1	29.77069	h2o_c + ppi_c --> 2.0 pi_c	{'charge': -1.0, 'H': -1.0}
+EX_nh4_e	32.78014	nh4_e <=> 	{'charge': -1.0, 'H': -4.0, 'N': -1.0}
+ACKr	-61.74719	ac_c + atp_c <=> actp_c + adp_c	{}
+ADK1	29.77069	amp_c + atp_c <=> 2.0 adp_c	{}
+ASNTRS	1.41162	asn__L_c + atp_c + trnaasn_c --> amp_c + asntrna_c + ppi_c	{'C': 10.0, 'H': 17.0, 'O': 10.0, 'P': 1.0, 'R': 1.0}
+ASPK	1.05966	asp__L_c + atp_c <=> 4pasp_c + adp_c	{}
+CYSDS	5.3213	cys__L_c + h2o_c --> h2s_c + nh4_c + pyr_c	{}
+FHL	4.8425	for_c + h_c --> co2_c + h2_c	{}
+GLNTRS	1.03651	atp_c + gln__L_c + trnagln_c --> amp_c + glntrna_c + ppi_c	{'H': -1.0}
+GLYTRS	7.7596	atp_c + gly_c + trnagly_c --> amp_c + glytrna_c + ppi_c	{'H': -1.0}
+HCO3E	98.34041	co2_c + h2o_c <=> h_c + hco3_c	{}
+HISTRS	0.34758	atp_c + his__L_c + trnahis_c --> amp_c + histrna_c + ppi_c	{}
+HSDy	-1.05966	hom__L_c + nadp_c <=> aspsa_c + h_c + nadph_c	{}
+ILETRS	0.45224	atp_c + ile__L_c + trnaile_c --> amp_c + iletrna_c + ppi_c	{}
+PHETRS	0.71821	atp_c + phe__L_c + trnaphe_c --> amp_c + phetrna_c + ppi_c	{}
+PROTRS	1.33025	atp_c + pro__L_c + trnapro_c --> amp_c + ppi_c + protrna_c	{'H': -1.0}
+SELR	45.94904	mql8_c + sel_c --> h2o_c + mqn8_c + slnt_c	{}
+SERTRS	1.64216	atp_c + ser__L_c + trnaser_c --> amp_c + ppi_c + sertrna_c	{'H': -1.0}
+SPODM	666.66667	2.0 h_c + 2.0 o2s_c --> h2o2_c + o2_c	{}
+THRS	1.05966	h2o_c + phom_c --> pi_c + thr__L_c	{}
+TRPAS2	10.27399	h2o_c + trp__L_c --> indole_c + nh4_c + pyr_c	{}
+TYRTRS	0.20834	atp_c + trnatyr_c + tyr__L_c --> amp_c + ppi_c + tyrtrna_c	{}
+ALAD_L	1.41095	ala__L_c + h2o_c + nad_c --> h_c + nadh_c + nh4_c + pyr_c	{}
+POX2	666.66667	h2o_c + h_c + 1.5 o2_c + pi_c + pyr_c --> actp_c + co2_c + 2.0 h2o2_c	{}
+BIOMASS_SA_only_AA	-0.29579	6.6 ala__L_c + 3.88 arg__L_c + 4.48 asn__L_c + 4.48 asp__L_c + 0.79 cys__L_c + 8.72 gln__L_c + 8.72 glu__L_c + 3.51 gly_c + 1.45 his__L_c + 4.06 ile__L_c + 5.21 leu__L_c + 5.45 lys__L_c + 1.94 met__L_c + 3.33 phe__L_c + 2.12 pro__L_c + 2.6 ser__L_c + 2.54 thr__L_c + 1.27 trp__L_c + 2.3 tyr__L_c + 4.12 val__L_c <=> h2o_c	{'charge': 3.87, 'C': -396.03000000000003, 'H': -764.4400000000002, 'N': -112.03000000000002, 'O': -201.18, 'S': -2.73}
+EX_hco3_e	98.34041	hco3_e --> 	{'charge': 1.0, 'C': -1.0, 'H': -1.0, 'O': -3.0}
+FRD2rpp	26.51511	2.0 h_p + mqn8_c + succ_c <=> fum_c + 2.0 h_c + mql8_c	{}
+FRNDPR2r	-96.08368	fdxr_42_c + h_c + nadh_c + 2.0 nadp_c <=> fdxo_42_c + nad_c + 2.0 nadph_c	{}
+POR	-623.05881	coa_c + fdxo_42_c + pyr_c <=> accoa_c + co2_c + fdxr_42_c + h_c	{}
+PRO1y	14.82677	nadp_c + pro__L_c --> 1pyr5c_c + 2.0 h_c + nadph_c	{}
+MELATN23DOX	1000.0	melatn_c + o2_c --> fna5moxam_c	{}
+FDH7	-0.41546	co2_c + fdxr_42_c + h_c <=> fdxo_42_c + for_c	{}
+HYNE	5.25796	4ogm_c + h2o_c --> akg_c + nh4_c	{'charge': nan}
+OGMG	5.25796	4izp_c + 3.0 h2o_c + h_c + 2.0 nad_c --> 4ogm_c + for_c + 2.0 nadh_c + nh4_c	{'charge': nan, 'H': -1.0}
+RE2439C	-333.33333	4.0 h_c + 3.0 melatn_c + 4.0 o2s_c <=> 3.0 fna5moxam_c + 2.0 h2o_c	{}
+DM_ac_c	43.60785	ac_c --> 	{'charge': 1.0, 'C': -2.0, 'H': -3.0, 'O': -2.0}
+SK_ile__L_c	0.74865	ile__L_c --> 	{'C': -6.0, 'H': -13.0, 'N': -1.0, 'O': -2.0}
+SK_arg__L_c	0.47052	arg__L_c --> 	{'charge': -1.0, 'C': -6.0, 'H': -15.0, 'N': -4.0, 'O': -2.0}
+SK_ser__L_c	9.48018	ser__L_c --> 	{'C': -3.0, 'H': -7.0, 'N': -1.0, 'O': -3.0}
+SK_gly_c	8.80856	gly_c --> 	{'C': -2.0, 'H': -5.0, 'N': -1.0, 'O': -2.0}
+FPRA	41.6128	fdxrd_c + h_c + nadp_c --> fdxox_c + nadph_c	{'charge': -1.0, 'R': 1.0, 'Fe': -8.0, 'S': -8.0, 'X': -1.0, 'H': -2.0}
+SIRA2	5.3213	6.0 fdxox_c + 3.0 h2o_c + h2s_c <=> 6.0 fdxrd_c + 8.0 h_c + so3_c	{'R': -6.0, 'Fe': 48.0, 'S': 48.0, 'X': 6.0, 'H': 12.0}
+HSK_2	1.05966	atp_c + hom__L_c --> adp_c + phom_c	{'charge': -1.0, 'H': -1.0}
+P5CDEG	185.01977	e4hglu_c + nad_c --> 4hglusa_c + nadh_c	{'H': 2.0, 'O': -1.0}
+ALAD_L2	-0.0865	2.0 h_c + nadh_c + nh3_c + pyr_c <-- ala__L_c + h2o_c + nad_c	{}
+PEPTIDEsyn	5.17665	0.748399 alatrna_c + 0.130805 argtrna_c + 0.272689 asntrna_c + 0.374015 asptrna_c + 0.017197 cystrna_c + 0.200228 glntrna_c + 0.256058 glutrna_c + 1.498961 glytrna_c + 0.067143 histrna_c + 0.087361 iletrna_c + 0.206491 leutrna_c + 0.311404 lystrna_c + 0.104726 mettrna_c + 0.13874 phetrna_c + 0.256971 protrna_c + 0.317225 sertrna_c + 0.349831 thrtrna_c + 0.087887 trptrna_c + 0.040246 tyrtrna_c + 0.284577 valtrna_c --> peptide_c + 0.748399 trnaala_c + 0.130805 trnaarg_c + 0.272689 trnaasn_c + 0.374015 trnaasp_c + 0.017197 trnacys_c + 0.200228 trnagln_c + 0.256058 trnaglu_c + 1.498961 trnagly_c + 0.067143 trnahis_c + 0.087361 trnaile_c + 0.206491 trnaleu_c + 0.311404 trnalys_c + 0.104726 trnamet_c + 0.13874 trnaphe_c + 0.256971 trnapro_c + 0.317225 trnaser_c + 0.349831 trnathr_c + 0.087887 trnatrp_c + 0.040246 trnatyr_c + 0.284577 trnaval_c	{'charge': -5.56309, 'C': 14.13093, 'H': 18.38021699999999, 'N': 0.8501369999999999, 'O': 10.081791, 'R': -0.27268900000000096, 'P': -0.272689, 'S': -0.121923}
+ADD_o2_c	666.66667	o2_c --> 	{'O': -2}

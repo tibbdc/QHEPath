@@ -1,0 +1,4 @@
+ATPM	1000.0	atp_c + h2o_c --> adp_c + h_c + pi_c	{}
+NDPK1	-1000.0	atp_c + gdp_c <=> adp_c + gtp_c	{}
+FE2GTPabc	-1000.0	fe2_e + gtp_c + h2o_c <-- fe2_c + gdp_c + h_c + pi_c	{}
+FE2t	1000.0	fe2_e --> fe2_c	{}

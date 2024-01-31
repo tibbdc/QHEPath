@@ -1,0 +1,4 @@
+ATPM	1000.0	atp_c + h2o_c --> adp_c + h_c + pi_c	{}
+PTA2	1000.0	pi_c + ppcoa_c --> coa_c + ppap_c	{}
+RE2649C	-1000.0	h2o_c + ppcoa_c <=> coa_c + h_c + ppa_c	{}
+PPAKr	1000.0	adp_c + ppap_c <=> atp_c + ppa_c	{}

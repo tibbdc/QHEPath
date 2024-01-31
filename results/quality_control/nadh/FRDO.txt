@@ -1,0 +1,7 @@
+GLUSy	500.0	akg_c + gln__L_c + h_c + nadph_c --> 2.0 glu__L_c + nadp_c	{}
+FRDO	1000.0	fdxrd_c + nadp_c <=> fdxox_c + h_c + nadph_c	{'charge': 1.0, 'R': 1.0, 'Fe': -8.0, 'S': -8.0, 'X': -1.0}
+GLUSfx	-500.0	akg_c + 2.0 fdxrd_c + gln__L_c + 2.0 h_c <=> 2.0 fdxox_c + 2.0 glu__L_c	{'H': -4.0, 'R': 2.0, 'Fe': -16.0, 'S': -16.0, 'X': -2.0}
+PGLCNDH	-500.0	6p2dhglcn_c + nadph_c <=> 6pgc_c + 2.0 h_c + nadp_c	{}
+PGLCNDH_1	500.0	6p2dhglcn_c + h_c + nadph_c --> 6pgc_c + nadp_c	{'charge': -3.0, 'H': -3.0}
+NADTRHD2	-500.0	nadh_c + nadp_c <=> h_c + nad_c + nadph_c	{'charge': 1.0, 'H': 1.0}
+ADD_nadh_c	500.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

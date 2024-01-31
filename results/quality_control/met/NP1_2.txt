@@ -1,0 +1,6 @@
+NNAM	1000.0	h2o_c + ncam_c --> nac_c + nh4_c	{}
+NP1_2	1000.0	nicrns_c + pi_c <=> h_c + ncam_c + r1p_c	{'charge': 1.0, 'H': 2.0, 'N': 1.0, 'O': -1.0}
+DHSKDH	1000.0	3dhsk_c --> 34dhbz_c + h2o_c	{}
+NP1	1000.0	h_c + nac_c + r1p_c --> nicrns_c + pi_c	{}
+Q3DHS	-1000.0	3dhsk_c <-- 34dhbz_c	{'H': -2.0, 'O': -1.0}
+ADD_nh4_c	1000.0	nh4_c --> 	{'charge': -1.0, 'H': -4, 'N': -1}

@@ -1,0 +1,7 @@
+ATPM	1000.0	atp_c + h2o_c --> adp_c + h_c + pi_c	{}
+PTA2	1000.0	pi_c + ppcoa_c --> coa_c + ppap_c	{}
+NAD_H2	1000.0	h_c + nadh_c <=> h2_c + nad_c	{}
+PPAAFDOR	-1000.0	fdxo_42_c + h2o_c + ppal_c <=> fdxr_42_c + 3.0 h_c + ppa_c	{}
+PPAKr	1000.0	adp_c + ppap_c <=> atp_c + ppa_c	{}
+MMSAD2	1000.0	coa_c + nad_c + ppal_c <=> h_c + nadh_c + ppcoa_c	{}
+HYDFDi	-1000.0	fdxr_42_c + 2.0 h_c <=> fdxo_42_c + h2_c	{}

@@ -1,0 +1,5 @@
+ATPM	1000.0	atp_c + h2o_c --> adp_c + h_c + pi_c	{}
+NDPK1	-1000.0	atp_c + gdp_c <=> adp_c + gtp_c	{}
+PPPPH	1000.0	gbdp_c + h_c + pi_c <=> gdptp_c + h2o_c	{}
+PpGppP	1000.0	gdp_c + ppi_c <=> gbdp_c + h2o_c	{}
+GDPTPDP	1000.0	gdptp_c + h2o_c --> gtp_c + ppi_c	{}

@@ -1,0 +1,23 @@
+ACLS	10.0	h_c + 2.0 pyr_c --> alac__S_c + co2_c	{}
+DHAD1	10.0	23dhmb_c --> 3mob_c + h2o_c	{}
+CO2tp	10.0	co2_c <=> co2_x	{}
+H2Otp	10.0	h2o_c <=> h2o_x	{}
+GLCpts	5.0	glc__D_e + pep_c --> g6p_c + pyr_c	{}
+GLCt2_2	5.0	glc__D_e + 2.0 h_e <=> glc__D_c + 2.0 h_c	{}
+PGLc	3.33333	3.0 6pgl_c + 3.0 h2o_c --> 3.0 6pgc_c + 3.0 h_c	{}
+HCO3E1	10.0	co2_x + h2o_x --> 	{'C': -1.0, 'O': -3.0, 'H': -2.0}
+EX_glc__D_e	-10.0	glc__D_e <=> 	{'C': -6.0, 'H': -12.0, 'O': -6.0}
+EDA	10.0	2ddg6p_c --> g3p_c + pyr_c	{}
+EDD	10.0	6pgc_c --> 2ddg6p_c + h2o_c	{}
+ENO	5.0	2pg_c <=> h2o_c + pep_c	{}
+KARA1	-10.0	23dhmb_c + nadp_c <=> alac__S_c + h_c + nadph_c	{}
+PGK	-5.0	3pg_c + atp_c <=> 13dpg_c + adp_c	{}
+PGM	-5.0	2pg_c <=> 3pg_c	{}
+MGSA2	5.0	g3p_c --> mthgxl_c + pi_c	{}
+2H3MBDH	10.0	3mob_c + h_c + nadh_c <=> 2h3mb_c + nad_c	{'charge': -2.0, 'C': 1.0, 'H': -1.0, 'O': 3.0, 'P': 1.0, 'S': 1.0}
+2H3MBt	10.0	2h3mb_c + h_c --> 2h3mb_e + h_e	{}
+G6PDH2c	3.33333	3.0 g6p_c + 3.0 nadp_c --> 3.0 6pgl_c + 3.0 h_c + 3.0 nadph_c	{}
+GAPD_1	5.0	g3p_c + nad_c + pi_c --> 13dpg_c + nadh_c	{'charge': -1.0, 'H': -1.0}
+HEX1_1	5.0	atp_c + glc__D_c --> adp_c + g6p_c	{'charge': -1.0, 'H': -1.0}
+PANO	5.0	h2o_c + mthgxl_c + nad_c --> 2.0 h_c + nadh_c + pyr_c	{}
+ADD_2h3mb_e	10.0	2h3mb_e --> 	{'charge': 3.0, 'C': -6, 'H': -8, 'O': -6, 'P': -1, 'S': -1}

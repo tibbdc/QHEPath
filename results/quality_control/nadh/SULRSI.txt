@@ -1,0 +1,8 @@
+NADTRHD	500.0	nad_c + nadph_c --> nadh_c + nadp_c	{}
+OXPTNDH	-1000.0	h2o_c + nad_c + oxptn_c <=> glutar_c + 2.0 h_c + nadh_c	{}
+SULRSI	500.0	3.0 h2o_c + 3.0 nadp_c + slnt_c --> 4.0 h_c + 3.0 nadph_c + sel_c	{'charge': 1.0, 'H': 1.0, 'O': -2.0}
+OXPTNDH_1	1000.0	nad_c + oxptn_c --> glutar_c + nadh_c	{'charge': -2.0, 'O': 1.0}
+NADPHQR3	500.0	h_c + mqn8_c + nadph_c --> mql8_c + nadp_c	{}
+SELR	500.0	mql8_c + sel_c --> h2o_c + mqn8_c + slnt_c	{}
+NADTRHD2	-500.0	nadh_c + nadp_c <=> h_c + nad_c + nadph_c	{'charge': 1.0, 'H': 1.0}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

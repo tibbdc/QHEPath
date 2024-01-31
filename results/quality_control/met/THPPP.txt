@@ -1,0 +1,78 @@
+O2t	144.27838	o2_e <=> o2_c	{}
+ATPS10rpp	244.53122	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+PPA_1pp	1000.0	h2o_c + ppi_c --> h_p + 2.0 pi_c	{}
+UGE	143.01422	udpglcur_c <=> udpgalur_c	{'charge': 3.0, 'H': 3.0}
+EX_alaasnleu_e	26.27433	alaasnleu_e --> 	{'C': -13.0, 'H': -24.0, 'N': -4.0, 'O': -5.0}
+EX_cysleuthr_e	11.83843	cysleuthr_e --> 	{'C': -13.0, 'H': -25.0, 'N': -3.0, 'O': -5.0, 'S': -1.0}
+EX_lyspheile_e	6.09405	lyspheile_e --> 	{'charge': -1.0, 'C': -21.0, 'H': -35.0, 'N': -4.0, 'O': -4.0}
+EX_metmetile_e	14.5358	metmetile_e --> 	{'C': -16.0, 'H': -31.0, 'N': -3.0, 'O': -4.0, 'S': -2.0}
+EX_prohistyr_e	21.72877	prohistyr_e --> 	{'charge': -1.0, 'C': -20.0, 'H': -26.0, 'N': -5.0, 'O': -5.0}
+EX_serargala_e	18.33209	serargala_e --> 	{'charge': -1.0, 'C': -12.0, 'H': -25.0, 'N': -6.0, 'O': -5.0}
+EX_tyralaphe_e	12.73755	tyralaphe_e --> 	{'C': -21.0, 'H': -25.0, 'N': -3.0, 'O': -5.0}
+ASPALAARGt	-8.41678	aspalaarg_e + h_e <=> aspalaarg_c + h_c	{}
+ASPLYSGLUt	-58.71762	asplysglu_e + h_e <=> asplysglu_c + h_c	{}
+CYSLEUTHRt	-11.83843	cysleuthr_e + h_e <=> cysleuthr_c + h_c	{}
+GLNASNGLNt	-37.16369	glnasngln_e + h_e <=> glnasngln_c + h_c	{}
+ILEGLNGLUt	-25.10047	h_e + ileglnglu_e <=> h_c + ileglnglu_c	{}
+LEUALAARGt	-16.28409	h_e + leualaarg_e <=> h_c + leualaarg_c	{}
+LYSPHEILEt	-6.09405	h_e + lyspheile_e <=> h_c + lyspheile_c	{}
+METMETILEt	-14.5358	h_e + metmetile_e <=> h_c + metmetile_c	{}
+PHEPHEASNt	-3.69639	h_e + phepheasn_e <=> h_c + phepheasn_c	{}
+PROGLNPROt	-5.02009	h_e + proglnpro_e <=> h_c + proglnpro_c	{}
+PROHISTYRt	-21.72877	h_e + prohistyr_e <=> h_c + prohistyr_c	{}
+SERARGALAt	-18.33209	h_e + serargala_e <=> h_c + serargala_c	{}
+SERGLYGLUt	-20.62984	h_e + serglyglu_e <=> h_c + serglyglu_c	{}
+THRGLNGLUt	-26.22438	h_e + thrglnglu_e <=> h_c + thrglnglu_c	{}
+VALLEUPHEt	-23.67686	h_e + valleuphe_e <=> h_c + valleuphe_c	{}
+VALTRPVALt	-19.0314	h_e + valtrpval_e <=> h_c + valtrpval_c	{}
+ASPLYSGLUr	-58.71762	asplysglu_c + 2.0 h2o_c <=> asp__L_c + glu__L_c + lys__L_c	{}
+ILEGLYARGr	-15.11024	2.0 h2o_c + ileglyarg_c <=> arg__L_c + gly_c + ile__L_c	{}
+LYSPHEILEr	-6.09405	2.0 h2o_c + lyspheile_c <=> ile__L_c + lys__L_c + phe__L_c	{}
+METMETILEr	-14.5358	2.0 h2o_c + metmetile_c <=> ile__L_c + 2.0 met__L_c	{}
+PHEPHEASNr	-3.69639	2.0 h2o_c + phepheasn_c <=> asn__L_c + 2.0 phe__L_c	{}
+PROGLNPROr	-5.02009	2.0 h2o_c + proglnpro_c <=> gln__L_c + 2.0 pro__L_c	{}
+PROHISTYRr	-21.72877	2.0 h2o_c + prohistyr_c <=> h_c + his__L_c + pro__L_c + tyr__L_c	{}
+SERARGALAr	-18.33209	2.0 h2o_c + serargala_c <=> ala__L_c + arg__L_c + ser__L_c	{}
+TYRALAPHEr	-12.73755	2.0 h2o_c + tyralaphe_c <=> ala__L_c + phe__L_c + tyr__L_c	{}
+VALTRPVALr	-19.0314	2.0 h2o_c + valtrpval_c <=> trp__L_c + 2.0 val__L_c	{}
+SFRR	24.25709	h_c + so3_c --> h2o_c + h2s_c	{'charge': 1.0, 'H': 3.0, 'O': -2.0}
+EX_o2_e	-144.27838	o2_e <=> 	{'O': -2.0}
+CYTBO3_4pp	143.01422	4.0 h_c + 0.5 o2_c + q8h2_c --> h2o_c + 4.0 h_p + q8_c	{}
+TMPK	1000.0	atp_c + thmmp_c --> adp_c + thmpp_c	{}
+NADH6	143.01422	4.5 h_c + nadh_c + q8_c --> 3.5 h_e + nad_c + q8h2_c	{}
+BIOMASS_SA_only_AA	-14.98536	6.6 ala__L_c + 3.88 arg__L_c + 4.48 asn__L_c + 4.48 asp__L_c + 0.79 cys__L_c + 8.72 gln__L_c + 8.72 glu__L_c + 3.51 gly_c + 1.45 his__L_c + 4.06 ile__L_c + 5.21 leu__L_c + 5.45 lys__L_c + 1.94 met__L_c + 3.33 phe__L_c + 2.12 pro__L_c + 2.6 ser__L_c + 2.54 thr__L_c + 1.27 trp__L_c + 2.3 tyr__L_c + 4.12 val__L_c <=> h2o_c	{'charge': 3.87, 'C': -396.03000000000003, 'H': -764.4400000000002, 'N': -112.03000000000002, 'O': -201.18, 'S': -2.73}
+GLA	143.01422	nad_c + udpgalur_c <=> 2.0 h_c + nadh_c + udpglcur_c	{'charge': -2.0}
+ATPS10_3	88.80212	3.0 adp_c + 10.0 h_e + 3.0 pi_c --> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+EX_alaglylys_e	16.85853	alaglylys_e --> 	{'charge': -1.0, 'C': -11.0, 'H': -23.0, 'N': -4.0, 'O': -4.0}
+EX_aspalaarg_e	8.41678	aspalaarg_e --> 	{'C': -13.0, 'H': -24.0, 'N': -6.0, 'O': -6.0}
+EX_asplysglu_e	58.71762	asplysglu_e --> 	{'charge': 1.0, 'C': -15.0, 'H': -25.0, 'N': -4.0, 'O': -8.0}
+EX_glnasngln_e	37.16369	glnasngln_e --> 	{'C': -14.0, 'H': -24.0, 'N': -6.0, 'O': -7.0}
+EX_ileglnglu_e	25.10047	ileglnglu_e --> 	{'charge': 1.0, 'C': -16.0, 'H': -27.0, 'N': -4.0, 'O': -7.0}
+EX_ileglyarg_e	15.11024	ileglyarg_e --> 	{'charge': -1.0, 'C': -14.0, 'H': -29.0, 'N': -6.0, 'O': -4.0}
+EX_leualaarg_e	16.28409	leualaarg_e --> 	{'charge': -1.0, 'C': -15.0, 'H': -31.0, 'N': -6.0, 'O': -4.0}
+EX_phepheasn_e	3.69639	phepheasn_e --> 	{'C': -22.0, 'H': -26.0, 'N': -4.0, 'O': -5.0}
+EX_proglnpro_e	5.02009	proglnpro_e --> 	{'C': -15.0, 'H': -24.0, 'N': -4.0, 'O': -5.0}
+EX_serglyglu_e	20.62984	serglyglu_e --> 	{'charge': 1.0, 'C': -10.0, 'H': -16.0, 'N': -3.0, 'O': -7.0}
+EX_thrglnglu_e	26.22438	thrglnglu_e --> 	{'charge': 1.0, 'C': -14.0, 'H': -23.0, 'N': -4.0, 'O': -8.0}
+EX_valleuphe_e	23.67686	valleuphe_e --> 	{'C': -20.0, 'H': -31.0, 'N': -3.0, 'O': -4.0}
+EX_valtrpval_e	19.0314	valtrpval_e --> 	{'C': -21.0, 'H': -30.0, 'N': -4.0, 'O': -4.0}
+ALAASNLEUt	-26.27433	alaasnleu_e + h_e <=> alaasnleu_c + h_c	{}
+ALAGLYLYSt	-16.85853	alaglylys_e + h_e <=> alaglylys_c + h_c	{}
+ILEGLYARGt	-15.11024	h_e + ileglyarg_e <=> h_c + ileglyarg_c	{}
+TYRALAPHEt	-12.73755	h_e + tyralaphe_e <=> h_c + tyralaphe_c	{}
+ALAASNLEUr	-26.27433	alaasnleu_c + 2.0 h2o_c <=> ala__L_c + asn__L_c + leu__L_c	{}
+ALAGLYLYSr	-16.85853	alaglylys_c + 2.0 h2o_c <=> ala__L_c + gly_c + lys__L_c	{}
+ASPALAARGr	-8.41678	aspalaarg_c + 2.0 h2o_c <=> ala__L_c + arg__L_c + asp__L_c	{}
+CYSLEUTHRr	-11.83843	cysleuthr_c + 2.0 h2o_c <=> cys__L_c + leu__L_c + thr__L_c	{}
+GLNASNGLNr	-37.16369	glnasngln_c + 2.0 h2o_c <=> asn__L_c + 2.0 gln__L_c	{}
+ILEGLNGLUr	-25.10047	2.0 h2o_c + ileglnglu_c <=> gln__L_c + glu__L_c + ile__L_c	{}
+LEUALAARGr	-16.28409	2.0 h2o_c + leualaarg_c <=> ala__L_c + arg__L_c + leu__L_c	{}
+SERGLYGLUr	-20.62984	2.0 h2o_c + serglyglu_c <=> glu__L_c + gly_c + ser__L_c	{}
+THRGLNGLUr	-26.22438	2.0 h2o_c + thrglnglu_c <=> gln__L_c + glu__L_c + thr__L_c	{}
+VALLEUPHEr	-23.67686	2.0 h2o_c + valleuphe_c <=> leu__L_c + phe__L_c + val__L_c	{}
+FPRA	145.54255	fdxrd_c + h_c + nadp_c --> fdxox_c + nadph_c	{'charge': -1.0, 'R': 1.0, 'Fe': -8.0, 'S': -8.0, 'X': -1.0, 'H': -2.0}
+SIRA2	24.25709	6.0 fdxox_c + 3.0 h2o_c + h2s_c <=> 6.0 fdxrd_c + 8.0 h_c + so3_c	{'R': -6.0, 'Fe': 48.0, 'S': 48.0, 'X': 6.0, 'H': 12.0}
+THPPP	1000.0	h2o_c + thmpp_c --> ppi_c + thmmp_c	{'charge': -2.0, 'H': -1.0, 'O': 3.0, 'P': 1.0}
+NDH1_1p_1	145.54255	5.0 h_c + nadph_c + pq_y --> 4.0 h_p + nadp_c + pqh2_y	{}
+CYTBDpp_2	72.77127	4.0 h_c + o2_c + 2.0 pqh2_y --> 2.0 h2o_c + 4.0 h_p + 2.0 pq_y	{}
+ADD_pi_c	1000.0	pi_c --> 	{'charge': 2.0, 'H': -1, 'O': -4, 'P': -1}

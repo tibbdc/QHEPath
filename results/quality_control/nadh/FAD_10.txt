@@ -1,0 +1,28 @@
+3OAR121	1000.0	3ocddec5eACP_c + h_c + nadph_c --> 3hcddec5eACP_c + nadp_c	{}
+ACACT4r	1000.0	accoa_c + occoa_c <=> 3odcoa_c + coa_c	{}
+T2DECAI	1000.0	tdec2eACP_c <=> cdec3eACP_c	{}
+H2Ot	-970.0	h2o_e <=> h2o_c	{}
+3HAACOAT100	-1000.0	3hdecACP_c + coa_c <=> ACP_c + R_3hdcoa_c	{}
+RHACOAR100	1000.0	3odcoa_c + h_c + nadph_c <=> R_3hdcoa_c + nadp_c	{}
+ATPS10rpp	300.0	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+SO4CLtex2	60.0	cl_c + 2.0 so4_e --> cl_e + 2.0 so4_c	{}
+DSMSTOLD	1000.0	ddsmsterol_c + fadh2_c <=> dsmsterol_c + fad_c	{}
+RE2410C	-1000.0	ddsmsterol_c + h_c + nadph_c <=> dsmsterol_c + nadp_c	{}
+RHACOAR121d5	-1000.0	3oddccoa_c + h_c + nadph_c <=> R_3hcddec5ecoa_c + nadp_c	{}
+EX_h2o_e	1000.0	h2o_e <=> 	{'H': -2.0, 'O': -1.0}
+3HAD100	1000.0	3hdecACP_c --> h2o_c + tdec2eACP_c	{}
+3OAS121	1000.0	cdec3eACP_c + h_c + malACP_c --> 3ocddec5eACP_c + ACP_c + co2_c	{}
+ACCOAC	1000.0	accoa_c + atp_c + hco3_c --> adp_c + h_c + malcoa_c + pi_c	{}
+HCO3E	1000.0	co2_c + h2o_c <=> h_c + hco3_c	{}
+MCOATA	1000.0	ACP_c + malcoa_c <=> coa_c + malACP_c	{}
+MG2t3_2pp	1000.0	2.0 h_c + mg2_p <=> 2.0 h_p + mg2_c	{}
+3HAACOAT121	1000.0	3hcddec5eACP_c + coa_c <=> ACP_c + R_3hcddec5ecoa_c	{}
+PGLCNDH	-333.33333	6p2dhglcn_c + nadph_c <=> 6pgc_c + 2.0 h_c + nadp_c	{}
+MGt2pp	-1000.0	h_p + mg2_p <=> h_c + mg2_c	{}
+SO4t_e	120.0	2.0 h_c + so4_c <=> 2.0 h_e + so4_e	{}
+CLOHtex2_1	30.0	2.0 cl_e + h2o_c --> 2.0 cl_c + h2o_e	{}
+FAD_10	1000.0	coa_c + decoa_c + fad_c + nad_c --> accoa_c + fadh2_c + nadh_c + occoa_c	{'charge': -1.0, 'H': 3.0, 'O': 1.0}
+ATPS4r_1	100.0	adp_c + 2.4 h_e + pi_c <=> atp_c + h2o_c + 1.4 h_c	{}
+PGLCNDH_1	333.33333	6p2dhglcn_c + h_c + nadph_c --> 6pgc_c + nadp_c	{'charge': -3.0, 'H': -3.0}
+KAT23	1000.0	3oddccoa_c + coa_c --> accoa_c + decoa_c	{}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

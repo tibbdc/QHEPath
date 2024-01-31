@@ -1,0 +1,7 @@
+r0398	-750.0	dhbpt_c + h_c + nadph_c <=> nadp_c + thbpt_c	{}
+FNOR	-500.0	2.0 fdxrd_c + h_c + nadp_c <=> 2.0 fdxo_2_2_c + nadph_c	{'charge': -6.0, 'Fe': -12.0, 'S': -12.0, 'H': -4.0}
+DHPR2	750.0	5mthf_c + dhbpt_c --> h_c + mlthf_c + thbpt_c	{}
+MTHFR5	-250.0	fdxo_42_c + h_c + mlthf_c + 2.0 nadh_c <=> 5mthf_c + fdxr_42_c + 2.0 nad_c	{}
+MRF	1000.0	fdxrd_c + 3.0 h_c + mlthf_c --> 5mthf_c + fdxo_2_2_c	{'charge': -4.0, 'H': -2.0, 'Fe': -6.0, 'S': -6.0}
+FRDO5r	-250.0	fdxr_42_c + h_c + nadp_c <=> fdxo_42_c + nadph_c	{}
+ADD_nadh_c	500.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

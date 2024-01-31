@@ -1,0 +1,5 @@
+ATPM	1000.0	atp_c + h2o_c --> adp_c + h_c + pi_c	{}
+PTAr	1000.0	accoa_c + pi_c <=> actp_c + coa_c	{}
+ACKr	-1000.0	ac_c + atp_c <=> actp_c + adp_c	{}
+RE3629C	-1000.0	CE2089_c + accoa_c <=> CE2088_c + coa_c + h_c	{}
+RE3630C	-1000.0	CE2088_c + h2o_c <=> CE2089_c + ac_c	{}

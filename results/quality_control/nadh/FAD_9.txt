@@ -1,0 +1,37 @@
+ACACT5r	1000.0	accoa_c + dcacoa_c <=> 3oddcoa_c + coa_c	{}
+ACOAD5f	-1000.0	ddcacoa_c + fad_c <=> dd2coa_c + fadh2_c	{}
+ADK3	1000.0	amp_c + gtp_c <=> adp_c + gdp_c	{}
+ECOAH6	1000.0	3htdcoa_c <=> h2o_c + td2coa_c	{}
+FA161ACPHi	1000.0	h2o_c + hdeACP_c --> ACP_c + h_c + hdcea_c	{}
+HACD5	1000.0	3oddcoa_c + h_c + nadh_c <=> 3hddcoa_c + nad_c	{}
+FACOAL161	1000.0	atp_c + coa_c + hdcea_c --> amp_c + hdcoa_c + ppi_c	{}
+UREA2t2	-1000.0	2.0 h_e + urea_e <=> 2.0 h_c + urea_c	{}
+ATPS10rpp	400.0	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+PPA_1pp	1000.0	h2o_c + ppi_c --> h_p + 2.0 pi_c	{}
+FASC161ACP	1000.0	2.0 h_c + malACP_c + myrsACP_c + nadph_c --> ACP_c + co2_c + h2o_c + hdeACP_c + nadp_c	{}
+FE2GTPabc	-1000.0	fe2_e + gtp_c + h2o_c <-- fe2_c + gdp_c + h_c + pi_c	{}
+FAD_16	1000.0	c5tetdcoa_c + coa_c + fad_c + nad_c --> accoa_c + c3dodcoa_c + fadh2_c + nadh_c	{'charge': nan}
+FAD_18	1000.0	3.0 h2o_c + t2dodcoa_c --> d2hdodcoa_c	{'charge': nan}
+TDACPT	-1000.0	coa_c + myrsACP_c <=> ACP_c + tdcoa_c	{}
+23CTI1	1000.0	decoa_c --> dc2coa_c	{}
+EX_h2o_e	-1000.0	h2o_e <=> 	{'H': -2.0, 'O': -1.0}
+ACACT6r	1000.0	accoa_c + ddcacoa_c <=> 3otdcoa_c + coa_c	{}
+ACCOAC	1000.0	accoa_c + atp_c + hco3_c --> adp_c + h_c + malcoa_c + pi_c	{}
+ACOAD4f	-1000.0	dcacoa_c + fad_c <=> dc2coa_c + fadh2_c	{}
+ACOAD6f	-1000.0	fad_c + tdcoa_c <=> fadh2_c + td2coa_c	{}
+ECOAH5	1000.0	3hddcoa_c <=> dd2coa_c + h2o_c	{}
+HACD6	1000.0	3otdcoa_c + h_c + nadh_c <=> 3htdcoa_c + nad_c	{}
+HCO3E	1000.0	co2_c + h2o_c <=> h_c + hco3_c	{}
+MCOATA	1000.0	ACP_c + malcoa_c <=> coa_c + malACP_c	{}
+MG2t3_2pp	1000.0	2.0 h_c + mg2_p <=> 2.0 h_p + mg2_c	{}
+FE2t	1000.0	fe2_e --> fe2_c	{}
+MGt2pp	-1000.0	h_p + mg2_p <=> h_c + mg2_c	{}
+UREAt5	1000.0	h2o_e + urea_e <=> h2o_c + urea_c	{}
+ATPS10_3	28.57143	3.0 adp_c + 10.0 h_e + 3.0 pi_c --> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+FAD_9	1000.0	coa_c + dodcoa_c + fad_c + nad_c --> accoa_c + decoa_c + fadh2_c + nadh_c	{'charge': nan, 'H': -3.0, 'O': -1.0}
+FAD_15	1000.0	coa_c + fad_c + hdcoa_c + nad_c --> accoa_c + c5tetdcoa_c + fadh2_c + nadh_c	{'charge': nan}
+FAD_17	1000.0	c3dodcoa_c + h2o_c --> h_c + t2dodcoa_c	{'charge': nan}
+FAD_19	1000.0	d2hdodcoa_c + nad_c --> dodcoa_c + nadh_c	{'charge': nan}
+ATPS4r_1	714.28571	adp_c + 2.4 h_e + pi_c <=> atp_c + h2o_c + 1.4 h_c	{}
+NADTRHD2	1000.0	nadh_c + nadp_c <=> h_c + nad_c + nadph_c	{'charge': 1.0, 'H': 1.0}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

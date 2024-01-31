@@ -1,0 +1,12 @@
+OXPTNDH	-1000.0	h2o_c + nad_c + oxptn_c <=> glutar_c + 2.0 h_c + nadh_c	{}
+GDR	-500.0	gthox_c + h_c + nadh_c <=> 2.0 gthrd_c + nad_c	{}
+TRDR4	500.0	gthox_c + trdrd_c <=> 2.0 gthrd_c + trdox_c	{}
+SULRR2	500.0	h_c + nadph_c + so3_c --> h2o_c + h2s_c + nadp_c	{'charge': 2.0, 'H': 2.0, 'O': -2.0}
+OXPTNDH_1	1000.0	nad_c + oxptn_c --> glutar_c + nadh_c	{'charge': -2.0, 'O': 1.0}
+PGLCNDH	-166.66667	6p2dhglcn_c + nadph_c <=> 6pgc_c + 2.0 h_c + nadp_c	{}
+FNOR_1	1000.0	2.0 fdxrd_c + h_c + nadp_c <=> 2.0 fdxox_c + nadph_c	{'R': 2.0, 'Fe': -16.0, 'S': -16.0, 'X': -2.0, 'H': -4.0}
+TRDRf	500.0	2.0 fdxrd_c + 2.0 h_c + trdox_c --> 2.0 fdxox_c + trdrd_c	{'R': 2.0, 'Fe': -16.0, 'S': -16.0, 'X': -2.0, 'H': -4.0}
+SIRA2	500.0	6.0 fdxox_c + 3.0 h2o_c + h2s_c <=> 6.0 fdxrd_c + 8.0 h_c + so3_c	{'R': -6.0, 'Fe': 48.0, 'S': 48.0, 'X': 6.0, 'H': 12.0}
+PGLCNDH_1	166.66667	6p2dhglcn_c + h_c + nadph_c --> 6pgc_c + nadp_c	{'charge': -3.0, 'H': -3.0}
+NADTRHD2	-500.0	nadh_c + nadp_c <=> h_c + nad_c + nadph_c	{'charge': 1.0, 'H': 1.0}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

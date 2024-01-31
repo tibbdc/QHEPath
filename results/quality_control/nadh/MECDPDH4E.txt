@@ -1,0 +1,7 @@
+FADRx2	166.66667	fad_c + h_c + nadph_c --> fadh2_c + nadp_c	{}
+MECDPDH	1000.0	2mecdp_c + h_c --> h2mb4p_c + h2o_c	{'charge': -2.0}
+MECDPDH4E	-1000.0	2mecdp_c + fdxrd_c + h_c <=> fdxo_2_2_c + h2mb4p_c + h2o_c	{'charge': -4.0, 'H': -2.0, 'Fe': -6.0, 'S': -6.0}
+FRNDPR2r	-166.66667	fdxr_42_c + h_c + nadh_c + 2.0 nadp_c <=> fdxo_42_c + nad_c + 2.0 nadph_c	{}
+NADFADOR	166.66667	fadh2_c + fdxr_42_c + 2.0 nad_c <=> fad_c + fdxo_42_c + 2.0 nadh_c	{}
+FNOR	500.0	2.0 fdxrd_c + h_c + nadp_c <=> 2.0 fdxo_2_2_c + nadph_c	{'charge': -6.0, 'Fe': -12.0, 'S': -12.0, 'H': -4.0}
+ADD_nadh_c	500.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

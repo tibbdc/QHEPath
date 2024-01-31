@@ -1,0 +1,13 @@
+CYSDSF	1000.0	cys__L_c <=> ala__L_c + s_c	{}
+BTS2	-1000.0	cys__L_c + dtbt_c <=> ala__L_c + btn_c + 2.0 h_c	{'charge': 2.0}
+SO4CLtex2	222.22222	cl_c + 2.0 so4_e --> cl_e + 2.0 so4_c	{}
+GDR	-1000.0	gthox_c + h_c + nadh_c <=> 2.0 gthrd_c + nad_c	{}
+BTS_1	1000.0	dtbt_c + 2.0 s_c --> btn_c + h2s_c + h_c	{'charge': 1.0, 'H': 1.0}
+HC00900t3	-1000.0	HC00900_c + tsul_e <=> HC00900_e + tsul_c	{}
+TSULR3e	-1000.0	2.0 gthrd_c + tsul_c <=> gthox_c + h2s_c + so3_c	{}
+St	1000.0	s_e <=> s_c	{}
+CLt3r_2	111.11111	2.0 cl_e + h_c <=> 2.0 cl_c + h_e	{}
+TSULe	-1000.0	s_e + so3_e <=> h_e + tsul_e	{'charge': 1.0, 'H': 1.0}
+SO4t_e	444.44444	2.0 h_c + so4_c <=> 2.0 h_e + so4_e	{}
+HC00900t1	1000.0	HC00900_c + so3_e <=> HC00900_e + so3_c	{}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}

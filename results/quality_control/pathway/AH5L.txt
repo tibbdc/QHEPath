@@ -1,0 +1,41 @@
+F6PA	14.0	f6p_c <=> dha_c + g3p_c	{}
+FUM	-12.0	fum_c + h2o_c <=> mal__L_c	{}
+GHMT2r	12.0	ser__L_c + thf_c <=> gly_c + h2o_c + mlthf_c	{}
+GTHOr	-12.0	gthox_c + h_c + nadph_c <=> 2.0 gthrd_c + nadp_c	{}
+MOHMT	12.0	3mob_c + h2o_c + mlthf_c --> 2dhp_c + thf_c	{}
+PGI	10.0	g6p_c <=> f6p_c	{}
+PPC	12.0	co2_c + h2o_c + pep_c --> h_c + oaa_c + pi_c	{}
+RPI	4.0	r5p_c <=> ru5p__D_c	{}
+SUCOAS	12.0	atp_c + coa_c + succ_c <=> adp_c + pi_c + succoa_c	{}
+TALA	-4.0	g3p_c + s7p_c <=> e4p_c + f6p_c	{}
+TKT2	-4.0	e4p_c + xu5p__D_c <=> f6p_c + g3p_c	{}
+TPI	14.0	dhap_c <=> g3p_c	{}
+GLUDxi	-12.0	glu__L_c + h2o_c + nad_c <=> akg_c + h_c + nadh_c + nh4_c	{}
+H2Ot	-24.0	h2o_e <=> h2o_c	{}
+GLCpts	10.0	glc__D_e + pep_c --> g6p_c + pyr_c	{}
+AH6PI	12.0	ah6p__D_c --> f6p_c	{}
+RU5PS	12.0	fald_c + ru5p__D_c --> ah6p__D_c	{}
+CYSTA	-12.0	akg_c + cys__L_c <=> glu__L_c + mercppyr_c	{}
+ARTCOAL2	12.0	Rtotal2_c + coa_c <=> Rtotal2coa_c	{'charge': 1.0, 'O': -1.0, 'H': -1.0}
+MDHy	-12.0	mal__L_c + nadp_c <=> h_c + nadph_c + oaa_c	{}
+HMR_6515	-12.0	mercppyr_c + so3_c <=> pyr_c + tsul_c	{}
+AH5L	12.0	5aop_c --> h2o_c + pbng_c	{'C': 5.0, 'H': 7.0, 'N': 1.0, 'O': 2.0}
+EX_glc__D_e	-10.0	glc__D_e <=> 	{'C': -6.0, 'H': -12.0, 'O': -6.0}
+EX_h2o_e	24.0	h2o_e <=> 	{'H': -2.0, 'O': -1.0}
+EX_nh4_e	-12.0	nh4_e <=> 	{'charge': -1.0, 'H': -4.0, 'N': -1.0}
+DHAPT	2.0	dha_c + pep_c --> dhap_c + pyr_c	{}
+ENO	24.0	2pg_c <=> h2o_c + pep_c	{}
+PGK	-24.0	3pg_c + atp_c <=> 13dpg_c + adp_c	{}
+PGM	-24.0	2pg_c <=> 3pg_c	{}
+TKT1	-4.0	r5p_c + xu5p__D_c <=> g3p_c + s7p_c	{}
+DHAK	12.0	atp_c + dha_c --> adp_c + dhap_c + h_c	{}
+NH4t	12.0	nh4_e <=> nh4_c	{}
+TSULR3e	-12.0	2.0 gthrd_c + tsul_c <=> gthox_c + h2s_c + so3_c	{}
+CYS	-12.0	h2s_c + ser__L_c <=> cys__L_c + h2o_c	{}
+2DHPFALDL	12.0	2dhp_c <=> 3mob_c + fald_c	{}
+ARTCOAL2_cho	12.0	Rtotal2coa_c + h2o_c --> Rtotal2_c + coa_c + h_c	{}
+FRDx	12.0	fum_c + h_c + nadh_c --> nad_c + succ_c	{}
+RPEc	-4.0	2.0 ru5p__D_c <=> 2.0 xu5p__D_c	{}
+GAPD_1	24.0	g3p_c + nad_c + pi_c --> 13dpg_c + nadh_c	{'charge': -1.0, 'H': -1.0}
+ALAS	12.0	gly_c + h_c + succoa_c --> 5aop_c + co2_c + coa_c	{}
+ADD_pbng_c	12.0	pbng_c --> 	{'C': -10, 'H': -14, 'N': -2, 'O': -4}

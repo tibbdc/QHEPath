@@ -1,0 +1,19 @@
+OMMBLHX3	500.0	2ommbl_c + 2.0 atp_c + 3.0 h2o_c + nad_c --> 2omhmbl_c + 2.0 adp_c + 3.0 h_c + nadh_c + 2.0 pi_c	{}
+OXPTNDH	-500.0	h2o_c + nad_c + oxptn_c <=> glutar_c + 2.0 h_c + nadh_c	{}
+NADHNQR	-500.0	4.0 h_c + na1_c + nadh_c + q8_c <=> 3.0 h_p + na1_p + nad_c + q8h2_c	{}
+ATPS10rpp	150.0	3.0 adp_c + 10.0 h_p + 3.0 pi_c <=> 3.0 atp_c + 3.0 h2o_c + 7.0 h_c	{}
+CITt4_4	-125.0	cit_e + 4.0 na1_e <=> cit_c + 4.0 na1_c	{}
+SO4CLtex2	265.55556	cl_c + 2.0 so4_e --> cl_e + 2.0 so4_c	{}
+ABAH	-500.0	2ommbl_c + amet_c <=> ahcys_c + h_c + q8_c	{'H': -2.0, 'O': 1.0}
+OXPTNDH_1	500.0	nad_c + oxptn_c --> glutar_c + nadh_c	{'charge': -2.0, 'O': 1.0}
+DMQMT	500.0	2omhmbl_c + amet_c --> ahcys_c + h_c + q8h2_c	{}
+MG2t3_2pp	1000.0	2.0 h_c + mg2_p <=> 2.0 h_p + mg2_c	{}
+NAtex	500.0	na1_e <=> na1_p	{}
+PGLCNDH	-333.33333	6p2dhglcn_c + nadph_c <=> 6pgc_c + 2.0 h_c + nadp_c	{}
+MGt2pp	-1000.0	h_p + mg2_p <=> h_c + mg2_c	{}
+CLt3r_2	132.77778	2.0 cl_e + h_c <=> 2.0 cl_c + h_e	{}
+CITt3	-125.0	cit_c + h_e <=> cit_e + h_c	{}
+SO4t_e	531.11111	2.0 h_c + so4_c <=> 2.0 h_e + so4_e	{}
+ATPS4r_1	550.0	adp_c + 2.4 h_e + pi_c <=> atp_c + h2o_c + 1.4 h_c	{}
+PGLCNDH_1	333.33333	6p2dhglcn_c + h_c + nadph_c --> 6pgc_c + nadp_c	{'charge': -3.0, 'H': -3.0}
+ADD_nadh_c	1000.0	nadh_c --> h_c + nad_c	{'charge': 2.0}
